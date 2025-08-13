@@ -1,0 +1,313 @@
+
+in sbhi ki mysqli me table bnaini h
+oor table ka name ase likna h example----(schoolInfo : School_Info)
+isme mne school ka first  element ko bda kiya h oor info ke first element ko bda kiya h 
+oor bhich me _ lgaya h 
+oor table ke items ka name bhi isi trh se likna h 
+oor sbhi table me isActive , create at oor updata at ko oor add  kro 
+
+
+
+
+schoolInfo 
+  year of experience experience
+  students
+  teachers
+  awards
+  schoolName
+  shortName
+  logoUrl
+  faviconUrl
+  motto
+  establishedYear
+  address
+  city
+  state
+  pinCode
+  alternatePhone
+  email
+  website
+  academicYearStart
+  academicYearEnd
+  youtubeUrl
+  linkedinUrl
+  instagramUrl
+  twitterUrl
+  boardAffiliation
+  boardAffiliationNumber
+  latitude
+  longitude
+  contactPersonName
+  contactPersonPosition
+  contactPersonPhone
+  mediumOfInstruction
+  displayOrder
+  
+  
+  
+  
+  
+  
+  
+
+
+poster
+    index
+    url
+    img
+    name
+    
+    
+3 school welcome massege 
+    tital 
+    massege
+    reade more url 
+  
+  
+  
+  
+4 result 10th
+    student name 
+    index
+    img
+    marks %
+    description
+    
+    
+  
+5 result 12
+    student name 
+    index
+    img
+    marks %
+    description
+    
+    
+    
+
+
+6 facility 
+    index
+    name 
+    tital 
+    description 
+    img
+    
+7 admission open massege 
+    tital
+    index
+    massege
+    img ---  optional 
+    read more url 
+    
+    
+    
+    
+9 notifiction 
+    index
+    isImpotent
+    tital
+    description
+    date
+    namme
+    
+10 achievements
+    img
+    namme
+    tital
+    description
+    index
+    
+11 Quick link 
+    index
+    url 
+    name 
+    
+    
+12  useful  link 
+    index
+    url 
+    name 
+    
+13 masseges
+    img
+    name 
+    roll
+    description
+    read more url 
+    index
+    
+14 admission
+      name 
+      father name
+      mather name 
+      email 
+      phone 
+      class
+      dob
+     cite
+     state
+     Gabder
+     addmission date 
+     and more 
+
+
+
+15 gallery catgry
+    name 
+    tital
+    index
+    date
+  
+  
+  
+
+16 gallery
+    gallery catgry id 
+    img
+    description -- optional
+    
+    
+
+17 pages catgry 
+    index
+    name
+    url
+    
+    
+    
+    
+18 pages
+    pages catgry id 
+    page data 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ---------------------------_-----------------_----_------------
+    
+    mare paas [ text,number,editer , date , multiInputs,file,option,]
+    ye sb type h
+    oor 
+    text ---- name ,father name , title vgra likne ke kaam aata h
+    number ---- number likhne k kaam aata h jse index vgra 
+    editer--- discription likne k kaam aata h ooor ye ckd adter hota h 
+    date--- date likne k kaam aata h jse dob
+    multiInputs---- isme bhut  sare inpt aate h 
+    file--- ye img ke kaam aata h 
+    option ---- option lgne ke kaam aata h jse active inactive ise isActive oor class me lgya jta h 
+    
+    example----
+    
+    
+    
+import MultiInput from '../components/InputsX/MultiInput';
+import Update from '../pages/Update';
+import Page_ from '../pages/Page';
+import Create from '../pages/Create';
+import DataDisplay from '../pages/DataDisplay';
+import {data} from '../Editer_tamplet/Page';
+
+const AchievementDisplay = [
+{
+      path: "/achievements/display/:id",
+      pageName: "_",
+      page: <DataDisplay
+        pageName=""
+        url={"/api/achievements/"}
+        title={"eCommerce Dashboard | create achievements "}
+        
+      />,
+    }
+];
+
+const Achievement = [
+  [
+    {
+      path: "/achievements",
+      pageName: "Achievements",
+      title:"achievements",
+      page: <Page_
+        pageName={"user"}
+        url={"/api/achievements.api.php?id="} achievements ki jgh table name liko
+        title={"eCommerce Dashboard | create achievements "} achievements ki jgh table name liko
+      />,
+
+
+    },
+    {
+      path: "/achievements/create", achievements ki jgh table name liko
+      pageName: "achievements", achievements ki jgh table name liko
+      url: "/api/achievements.api.php",achievements ki jgh table name liko
+      title: "eCommerce Dashboard | create achievements ",
+      
+      page: <Create
+        pageName={"achievements"} achievements ki jgh table name liko
+        url="/api/achievements.api.php" achievements ki jgh table name liko
+        ///// ase hi iche krna h 
+        inputs={[
+          { type: "text", name: "title" },
+          { type: "editer", name: "description" ,  tamplet:[{code:data,name:"page"},{code:"<h2>helll</h2>",name:"page2"}]},
+          { type: "date", name: "achievementDate" },
+          { type: "text", name: "imageUrl" },
+          { type: "text", name: "achievementType" },
+          { type: "number", name: "studentId" },
+          { type: "number", name: "facultyId" },
+          { type: "text", name: "teamName" },
+          { type: "text", name: "createdAt" },
+          { type: "text", name: "updatedAt" },
+        ]}
+
+      />,
+    },
+    {
+
+      path: "/achievements/update/:id",
+      pageName: "achievements",
+      url: "/api/achievements/",
+      title: "eCommerce Dashboard | create achievements ",
+      felds: [{ inputTypy: "text" }],
+      page: <Update
+        name="achievements"
+        url="/api/achievements/"
+        getDataUrl="/api/achievements/"
+        inputs={[
+          { type: "text", name: "name" },
+          { type: "text", name: "password" },
+          { type: "editer", name: "title" ,  tamplet:[{code:data,name:"page"},{code:"<h2>helll</h2>",name:"page2"}]},
+
+          { type: "text", name: "email" },
+          { type: "number", name: "phone" },
+          { type: "option", name: "status", url: "/api/helper/statusOption", valueBy: "value", optionBy: "status" },
+
+        ]}
+
+      />,
+    },
+...AchievementDisplay
+  ],
+  
+];
+
+
+
+
+export {Achievement}
+
+
+
+
+Niche ek single PHP API file diya gaya hai jisme Poster table ke liye:
+
+✅ CRUD (Create, Read, Update, Delete)
+✅ Pagination
+✅ Filtering by is_active, name, date (optional)
+✅ Proper HTTP method-based routing
+✅ Image upload support

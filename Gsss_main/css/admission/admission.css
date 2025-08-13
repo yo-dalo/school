@@ -1,0 +1,98 @@
+  
+  
+      .sidebar {
+      float: right;
+      width: 250px;
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .sidebar li {
+      padding: 10px 0;
+      border-bottom: 1px dotted #aaa;
+    }
+    .sidebar li::before {
+      content: "▶";
+      color: purple;
+      margin-right: 5px;
+    }
+  
+  
+  
+  
+  
+  
+    .form-container {
+      max-width: 700px;
+      background: white;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+  .form-container  h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #004d40;
+    }
+
+  .form-container  label {
+      display: block;
+      margin: 12px 0 4px;
+      font-weight: bold;
+    }
+
+   .form-container input, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+  .form-container  .required-msg {
+      color: red;
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+   .form-container .form-row {
+      display: flex;
+      gap: 20px;
+    }
+
+  .form-container  .form-row > div {
+      flex: 1;
+    }
+
+  .form-container  .actions {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+   .form-container .actions button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      color: white;
+      background-color: #9d2f5d;
+      cursor: pointer;
+    }
+
+  .form-container  .actions button[type="reset"] {
+      background-color: #ccc;
+      color: #333;
+    }
+
+    @media (max-width: 600px) {
+      .form-row {
+        flex-direction: column;
+      }
+    }

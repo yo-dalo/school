@@ -1,0 +1,75 @@
+
+.fee-structure {
+ width: 100%;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+.fee-structure h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #134E4A;
+  font-size: 26px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Scrollable wrapper for mobile */
+.fee-structure table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  min-width: 700px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #E0F2F1;
+  color: #004D40;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.note {
+  margin-top: 25px;
+  font-size: 15px;
+  background: #fef9e7;
+  border-left: 5px solid #f39c12;
+  padding: 12px 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .fee-structure {
+    padding: 20px 10px;
+  }
+
+  .fee-structure h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  th, td {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .note {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}

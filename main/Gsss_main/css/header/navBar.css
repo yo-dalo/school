@@ -1,0 +1,111 @@
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e70; /* Dark Blue */
+  padding: 0 40px;
+ /* position: relative; */
+  position: sticky; 
+
+  z-index: 90;
+}
+
+.openPhoneMenu{
+  display: none;
+}
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu > li {
+  margin-right: 25px;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 18px 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.nav-menu a:hover {
+  background-color: #1d2951;
+}
+
+/* Dropdown */
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background-color: #32457b;
+  border-top: 3px solid #f1c40f;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown li a {
+  padding: 12px 15px;
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+.dropdown li a:hover {
+  background-color: #3c5ca2;
+}
+
+/* Optional: Add caret icon to dropdown */
+.has-dropdown > a::after {
+  content: "";
+  margin-left: 5px;
+}
+
+@media (max-width: 600px){
+  
+  
+  .navbar {
+  z-index: 90;
+  height: 15vw;
+  padding: 0;
+}
+
+
+.openPhoneMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+
+
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  display: none;
+}
+  
+}

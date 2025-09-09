@@ -1,0 +1,325 @@
+GSSS_v12
+├── Gsss_admin
+│   ├── Gallery.php
+│   ├── cdn_modules
+│   │   └── jquery@3.7.1
+│   │       └── jquery.min.js
+│   ├── cke_aditer
+│   │   ├── index.html
+│   │   ├── post_template.css
+│   │   ├── script.js
+│   │   └── style.css
+│   ├── facility.php
+│   ├── fax.sql
+│   ├── header.php
+│   ├── home.html
+│   ├── img
+│   │   └── q1.jpg
+│   ├── index.php
+│   ├── js
+│   │   ├── facility.js
+│   │   ├── function.js
+│   │   ├── gallery.js
+│   │   ├── login.js
+│   │   ├── post.js
+│   │   ├── s_up.js
+│   │   ├── slider.js
+│   │   ├── student.js
+│   │   └── teacher.js
+│   ├── login.html
+│   ├── login_out.php
+│   ├── main.js
+│   ├── php
+│   │   ├── add.php
+│   │   ├── conn.php
+│   │   ├── delete_swaiper.php
+│   │   ├── edit.php
+│   │   ├── facility
+│   │   │   ├── add_facility.php
+│   │   │   ├── edit_facility_.php
+│   │   │   ├── get_facility_by_id.php
+│   │   │   └── show_facility.php
+│   │   ├── gallery
+│   │   │   ├── add_gallery.php
+│   │   │   ├── edit_gallery.php
+│   │   │   ├── get_all_img_by_gallery_id.php
+│   │   │   ├── get_gallery_by_id.php
+│   │   │   └── show_gallery.php
+│   │   ├── get_by_id.php
+│   │   ├── login
+│   │   │   └── login.php
+│   │   ├── post
+│   │   │   ├── add_post.php
+│   │   │   ├── edit_post_.php
+│   │   │   ├── get_post_by_id.php
+│   │   │   └── show_post.php
+│   │   ├── s_up
+│   │   │   ├── add_s_up.php
+│   │   │   ├── edit_s_up_.php
+│   │   │   ├── get_s_up_by_id.php
+│   │   │   └── show_s_up.php
+│   │   ├── s_up 1
+│   │   │   ├── add_facility.php
+│   │   │   ├── delete_facility_img.php
+│   │   │   ├── edit_facility_.php
+│   │   │   ├── get_facility_by_id.php
+│   │   │   └── show_facility.php
+│   │   ├── show_swiper.php
+│   │   ├── status.php
+│   │   ├── student
+│   │   │   ├── add_student.php
+│   │   │   ├── edit_student_.php
+│   │   │   ├── get_student_by_id.php
+│   │   │   └── show_student.php
+│   │   ├── teacher
+│   │   │   ├── add_teacher.php
+│   │   │   ├── edit_teacher_.php
+│   │   │   ├── get_teacher_by_id.php
+│   │   │   └── show_teacher.php
+│   │   └── upload.php
+│   ├── post.js
+│   ├── post.php
+│   ├── run.html
+│   ├── sing_up.php
+│   ├── student.php
+│   ├── style.css
+│   ├── teacher.php
+│   ├── teacher_info.html
+│   ├── text.html
+│   ├── uploads
+│   │   ├── 638648471379768672.jpg
+│   │   ├── 638867104338709181.jpg
+│   │   ├── 638867104530776609.jpg
+│   │   ├── facility_img
+│   │   ├── gallery_img
+│   │   └── teacher_img
+│   └── yo.js
+│       ├── _.js
+│       └── jquery.js
+├── Gsss_main
+│   ├── G_allery.php
+│   ├── Page
+│   │   ├── about-school.php
+│   │   ├── about.php
+│   │   ├── academic-calendar.php
+│   │   ├── academics.php
+│   │   ├── achievements.php
+│   │   ├── admission-process.php
+│   │   ├── admissions.php
+│   │   ├── annual-function.php
+│   │   ├── chairman-message.php
+│   │   ├── circulars.php
+│   │   ├── class-eligibility.php
+│   │   ├── class-wise-fee-structure.php
+│   │   ├── clubs.php
+│   │   ├── co-curricular.php
+│   │   ├── competitions.php
+│   │   ├── computer-lab.php
+│   │   ├── conn.php
+│   │   ├── cultural-activities.php
+│   │   ├── curriculum.php
+│   │   ├── documents-required.php
+│   │   ├── downloads-admission-form.php
+│   │   ├── downloads-syllabus.php
+│   │   ├── downloads.php
+│   │   ├── exam-assessment.php
+│   │   ├── exam-dates-results.php
+│   │   ├── exam-timetable-downloads.php
+│   │   ├── facilities.php
+│   │   ├── fee-details.php
+│   │   ├── fee-structure-downloads.php
+│   │   ├── footer.php
+│   │   ├── form-download.php
+│   │   ├── header.php
+│   │   ├── holiday-list.php
+│   │   ├── index.php
+│   │   ├── library.php
+│   │   ├── management-committee.php
+│   │   ├── news-notices.php
+│   │   ├── non-teaching-staff.php
+│   │   ├── payment-methods.php
+│   │   ├── photos.php
+│   │   ├── principal-message.php
+│   │   ├── school-at-glance.php
+│   │   ├── school-notices.php
+│   │   ├── science-labs.php
+│   │   ├── smart-classrooms.php
+│   │   ├── sports-day.php
+│   │   ├── sports-facilities.php
+│   │   ├── staff.php
+│   │   ├── syllabus.php
+│   │   ├── teaching-methodology.php
+│   │   ├── teaching-staff.php
+│   │   ├── transfer-certificate-downloads.php
+│   │   ├── transport-hostel.php
+│   │   └── videos.php
+│   ├── about 1 1 1 1 1.php
+│   ├── about 1 1 1 1.php
+│   ├── about.php
+│   ├── academic_calendar.php
+│   ├── admission#.php
+│   ├── admission-procedure.php
+│   ├── admission.php
+│   ├── admission_info.php
+│   ├── books_uniform.php
+│   ├── cdn_modules
+│   │   ├── Swiper@11.0.5
+│   │   │   ├── swiper-bundle.min.css
+│   │   │   └── swiper-bundle.min.js
+│   │   ├── gsap@3.12.5
+│   │   │   ├── ScrollTrigger.min.js
+│   │   │   └── gsap.min.js
+│   │   └── jquery@3.7.1
+│   │       └── jquery.min.js
+│   ├── class_timetable.php
+│   ├── conn.php
+│   ├── contact.php
+│   ├── contact_us.php
+│   ├── css
+│   │   ├── Evaluation.css
+│   │   ├── admission
+│   │   │   └── admission.css
+│   │   ├── admission-procedure.css
+│   │   ├── fee.css
+│   │   ├── footer
+│   │   │   └── footer.css
+│   │   ├── gallery
+│   │   │   ├── G_allery.css
+│   │   │   └── page_1.css
+│   │   ├── header
+│   │   │   ├── mainNav2.css
+│   │   │   ├── nav.css
+│   │   │   └── navBar.css
+│   │   ├── header.css
+│   │   ├── index
+│   │   │   ├── index.css
+│   │   │   ├── page_1-4.css
+│   │   │   ├── page_1-5.css
+│   │   │   ├── page_2.css
+│   │   │   └── page_3.css
+│   │   ├── model.css
+│   │   ├── post
+│   │   │   └── post.css
+│   │   ├── utility
+│   │   │   ├── main-utility.css
+│   │   │   └── page-utility.css
+│   │   └── utility.css
+│   ├── evaluation.php
+│   ├── examination_info.php
+│   ├── fee.php
+│   ├── font
+│   │   ├── Montserrat
+│   │   │   ├── README.txt
+│   │   │   └── static
+│   │   │       └── Montserrat-Regular.ttf
+│   │   ├── Poppins
+│   │   │   └── Poppins-Regular.ttf
+│   │   └── m.font
+│   ├── footer.php
+│   ├── gallery.php
+│   ├── header.php
+│   ├── icone
+│   │   ├── doctor.png
+│   │   ├── facebook.png
+│   │   ├── instagram.png
+│   │   ├── twitter.png
+│   │   └── youtube.png
+│   ├── img
+│   │   ├── 1707244846818.png
+│   │   ├── achievement
+│   │   │   ├── a1.jpg
+│   │   │   ├── a2.jpg
+│   │   │   ├── a3.jpg
+│   │   │   ├── a4.jpg
+│   │   │   ├── a5.jpg
+│   │   │   └── a6.jpg
+│   │   ├── active
+│   │   │   ├── archery.svg
+│   │   │   ├── basketball.svg
+│   │   │   ├── boxing.svg
+│   │   │   ├── cycling.svg
+│   │   │   ├── handball.svg
+│   │   │   ├── kabaddi.svg
+│   │   │   ├── volleyball.svg
+│   │   │   └── wrestling.svg
+│   │   ├── admission_bg.png
+│   │   ├── example
+│   │   │   ├── 0M1A6323.jpg
+│   │   │   ├── 21_john-elliott-nepal_WORKS_e49f8295ccc5a85e1a76e2d68c06456f.jpg
+│   │   │   ├── SOLOLEVELING_1.jpg
+│   │   │   ├── Screenshot_2024-02-13-21-59-19-099_com.android.chrome.png
+│   │   │   ├── Screenshot_2024-02-13-21-59-24-969_com.android.chrome.png
+│   │   │   ├── follow.jpeg
+│   │   │   └── slider1.jpg
+│   │   ├── image-left.png
+│   │   ├── istockphoto-1351409590-612x612.jpg
+│   │   ├── istockphoto-1351409621-612x612.jpg
+│   │   ├── logo
+│   │   │   ├── hindu_logo.png
+│   │   │   ├── logo_1.png
+│   │   │   ├── logo_2.png
+│   │   │   ├── logo_3.png
+│   │   │   └── school_name_logo.png
+│   │   ├── logo-rps-mgarh.png
+│   │   ├── online.gif
+│   │   ├── student
+│   │   │   ├── resultstudent
+│   │   │   │   ├── ANSHUL-YADAV.jpg
+│   │   │   │   ├── HIMANSHU.jpg
+│   │   │   │   ├── RAKESH.jpg
+│   │   │   │   ├── SAKSHI.jpg
+│   │   │   │   ├── SANIYA.jpg
+│   │   │   │   └── avni-mittal.jpg
+│   │   │   ├── student_1.jpg
+│   │   │   ├── student_2.jpg
+│   │   │   └── student_3.jpg
+│   │   ├── swiper_img
+│   │   │   ├── 638248508096753191.jpg
+│   │   │   ├── 638248509196671125.jpg
+│   │   │   ├── 638283060390728595.jpg
+│   │   │   ├── 638345124940277193.jpg
+│   │   │   ├── 638359240710894488.jpg
+│   │   │   ├── 638399812735411849.jpg
+│   │   │   ├── 638424899680417645.jpeg
+│   │   │   └── teacher_img
+│   │   │       ├── 637510576167203704.png
+│   │   │       └── 637558118788672983.jpg
+│   │   └── top_log
+│   │       ├── logo_1.png
+│   │       ├── logo_2.png
+│   │       └── logo_3.png
+│   ├── index.php
+│   ├── js
+│   │   ├── mainNav2.js
+│   │   ├── model.js
+│   │   └── page_1-5.js
+│   ├── location_reach_us.html
+│   ├── logo
+│   │   ├── logo.css
+│   │   ├── logo.html
+│   │   └── logo.svg
+│   ├── main.js
+│   ├── new
+│   │   └── about.php
+│   ├── news_detail.php
+│   ├── news_list.php
+│   ├── php
+│   │   ├── admission.php
+│   │   ├── conn.php
+│   │   └── function.php
+│   ├── post.js
+│   ├── post.php
+│   ├── post_info.php
+│   ├── principal-massage.php
+│   ├── run.html
+│   ├── school_timings.php
+│   ├── syllabus_downloads.php
+│   ├── teaching_methods.php
+│   ├── yo.js
+│   │   ├── _.js
+│   │   └── jquery.js
+│   └── yo_ajax.js
+├── db.sql
+└── docs for this varjan
+
+55 directories, 268 files

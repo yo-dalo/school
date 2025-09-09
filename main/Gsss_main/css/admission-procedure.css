@@ -1,0 +1,61 @@
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #0a5c57;
+      margin-top: 0;
+    }
+
+    h3 {
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .sidebar {
+      position: absolute;
+      right: 0;
+      top: 20px;
+      width: 240px;
+      background: #f9f9f9;
+      padding: 10px;
+      border-left: 1px solid #ddd;
+      display: none;
+    }
+
+    .sidebar h4 {
+      font-size: 16px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 8px;
+    }
+
+    .sidebar a {
+      display: block;
+      text-decoration: none;
+      padding: 6px 0;
+      color: #333;
+    }
+
+    .note, .termination {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        position: static;
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+      }
+    }

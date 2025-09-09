@@ -1,0 +1,879 @@
+.page_1-4{
+
+ width: 100vw;
+
+ background: #AA6F6F00;
+
+ display: flex;
+
+ flex-direction: column;
+
+ gap: 5vw;
+
+}
+
+
+
+ 
+
+.short-info {
+
+   padding: 0 34px;
+
+   /*margin: 50px 0;*/
+
+   width: 100%;
+
+   /* height: 40vw;*/
+
+   height: 10vw;
+
+   background: var(--yo_color);
+
+   font-family: var(--yo_font);
+
+   display: flex;
+
+   align-items: stretch;
+
+   justify-content: center;
+
+   /* flex-wrap: wrap;*/
+
+}
+
+
+ 
+
+.short-info_ {
+
+   width: 50%;
+
+   height: auto;
+
+   display: flex;
+
+   /* flex-direction: column; */
+
+   align-items: center;
+
+   justify-content: center;
+
+   flex-wrap: wrap;
+
+   gap: 0.8rem;
+
+}
+
+
+ 
+
+.short-info_  > li{
+
+   display: block;
+
+   font-size: 1rem;
+
+   color: #FFFFFF;
+
+}
+
+
+ 
+
+.short-info_ > h3 {
+
+   font-size: 2rem;
+
+   color: #FFD518;
+
+}
+
+
+
+
+
+ 
+
+.result {
+
+ width: 100vw;
+
+ min-height: 30vw;
+
+ padding: 0 0vw;
+
+ background: #fff;
+
+ display:flex;
+
+ flex-direction: row;
+
+ justify-content: center;
+
+ /* align-items: center; */
+
+ gap: 0vw;
+
+}
+
+
+ 
+
+.result > div{
+
+   min-width:50%;
+
+   /* border:2px solid black; */
+
+}
+
+
+
+ 
+
+.result h2{
+
+  text-align: center;
+
+  font-size: 2vw;
+
+  padding: 3vw 0;
+
+  text-align: center;
+
+}
+
+
+ 
+
+.result h2 span{
+
+   color: #FFD518;
+
+}
+
+
+
+
+ 
+
+.students_card{
+
+   width: 100%;
+
+   min-height: 10vw;
+
+   display: flex;
+
+   justify-content: center;
+
+   flex-wrap: wrap;
+
+   gap: 2vw;
+
+   row-gap: 4vw;
+
+   height: 17vw;
+
+}
+
+
+ 
+
+.students_card .student_card{
+
+   width: 30%;
+
+   width: 23%;
+
+   height: 100%;
+
+}
+
+.students_card .student_card .student_img{
+
+   width: 100%;
+
+   height: 70%;
+
+   min-height: 70%;
+
+}
+
+
+ 
+
+.students_card .student_card .student_img img{
+
+object-fit: cover;
+
+}
+
+
+
+ 
+
+.students_card .student_card .student_info{
+
+   width: 100%;
+
+   text-align: center;
+
+   display: flex;
+
+   flex-direction: column;
+
+   justify-content: space-between;
+
+   padding-top: 1vw;
+
+   height: 35%;
+
+}
+
+
+ 
+
+.students_card .student_card .student_info h3{
+
+   font-size: 2vw;
+
+}
+
+
+
+
+
+
+ 
+
+.faculty{
+
+   width: 100%;
+
+   background: #F0EBEB00;
+
+ /*  padding: 4vw 2vw;*/
+
+  padding: 0vw 2vw;
+
+
+ 
+
+}
+
+.faculty > h4{
+
+   color: #A5A5A5;
+
+   font-size: 1.3rem;
+
+}
+
+
+ 
+
+.faculty > h1{
+
+   font-size: 2.5rem;
+
+   padding: 1vw 0;
+
+}
+
+
+ 
+
+.faculty >.line{
+
+   display: flex;
+
+   gap: 2vw;
+
+   
+
+}
+
+
+
+ 
+
+.faculty > .line >.line-1{
+
+   width: 10vw;
+
+   height: 0.5vw;
+
+   background-color: #F8ED16;
+
+   
+
+}
+
+.faculty >.line>.line-2{
+
+   width: 3vw;
+
+   height: 0.5vw;
+
+   background-color: #C8C8C8;
+
+   
+
+}
+
+
+ 
+
+.faculty>li{
+
+   display: block;
+
+   font-size: 1rem;
+
+   padding: 2vw 0;
+
+   
+
+}
+
+
+ 
+
+.facility-swipe{
+
+   width: 100%;
+
+   overflow-x: scroll;
+
+   display: flex;
+
+   gap: 2vw;
+
+   /*
+
+   gap: 3vw;
+
+*/
+
+   height: 56vh;
+
+   /* height: 50vw; */
+
+
+ 
+
+}
+
+
+ 
+
+.facility-card {
+
+  background: #78D0E8;
+
+  height: 100%;
+
+  max-width: 29%;
+
+ min-width: 29%;
+
+}
+
+.facility-card .facility-Img{
+
+   width: 100%;
+
+   height: 61%;
+
+   
+
+}
+
+
+ 
+
+.facility-Info{
+
+   padding: 1vw 2vw;
+
+   display: flex;
+
+   flex-direction: column;
+
+   gap: 0.6vw;
+
+   color: #FFFFFF;
+
+   background: var(--yo_color);
+
+   height: 39%;
+
+}
+
+
+
+ 
+
+.facility-card .facility-Info p{
+
+   line-height: 1.2;
+
+   
+
+ display: -webkit-box;
+
+ -webkit-line-clamp: 2; /* Ã Â¤â€¢Ã Â¤Â¿Ã Â¤Â¤Ã Â¤Â¨Ã Â¥â‚¬ Ã Â¤Â²Ã Â¤Â¾Ã Â¤â€¡Ã Â¤Â¨Ã Â¥â€¡ Ã Â¤Â¦Ã Â¤Â¿Ã Â¤â€“Ã Â¤Â¾Ã Â¤Â¨Ã Â¥â‚¬ Ã Â¤Â¹Ã Â¥Ë†Ã Â¤â€š */
+
+ -webkit-box-orient: vertical;
+
+ /*overflow: hidden;*/
+
+}
+
+
+
+
+
+
+
+ 
+
+.facility-card .facility-Info h3 {
+
+   color: #E3CE1F;
+
+   
+
+   
+
+}
+
+
+
+
+
+
+ 
+
+@media (max-width: 600px) {
+
+   
+
+   .short-info {
+
+   padding: 1vw !important;
+
+   margin: 50px 0;
+
+   width: 100%;
+
+   height: 80vh !important;
+
+   background: var(--yo_color);
+
+   font-family: var(--yo_font);
+
+   display: flex;
+
+   flex-direction: column;
+
+   align-items: stretch;
+
+   justify-content: space-around;
+
+   flex-wrap: nowrap;
+
+   
+
+}
+
+
+ 
+
+.short-info_ {
+
+   width: 100%;
+
+   height: auto;
+
+   display: flex;
+
+   flex-direction: column;
+
+   align-items: center;
+
+   justify-content: center;
+
+   flex-wrap: wrap;
+
+   gap: 0.8rem;
+
+}
+
+
+ 
+
+.short-info_  > li{
+
+   display: block;
+
+   font-size: 1rem !important;
+
+   color: #FFFFFF;
+
+}
+
+
+ 
+
+.short-info_ > h3 {
+
+   font-size: 3rem;
+
+   color: #FFD518;
+
+}
+
+
+
+ 
+
+   
+
+   
+
+
+
+
+
+ 
+
+.result {
+
+   width: 100vw;
+
+   min-height: 100vw;
+
+   padding: 0 3vw;
+
+   background: #FAFAFA;
+
+   display: flex;
+
+   flex-direction: column;
+
+   justify-content: center;
+
+   gap: 6vw;
+
+}
+
+
+
+
+
+ 
+
+.result h2 {
+
+   text-align: center;
+
+   font-size: 6vw;
+
+   padding: 3vw 0;
+
+   
+
+}
+
+
+
+
+
+
+
+ 
+
+.students_card {
+
+   width: 100%;
+
+   height: 60vw !important;
+
+   display: flex;
+
+   justify-content: center;
+
+   gap: 1vw;
+
+}
+
+
+ 
+
+.students_card .student_card {
+
+   max-width: 30%;
+
+   min-width: 30%;
+
+   height: 100%;
+
+}
+
+
+ 
+
+.students_card .student_card .student_img {
+
+   width: 100%;
+
+   height: 70%;
+
+   min-height: 70%;
+
+}
+
+
+ 
+
+.students_card .student_card .student_img img {
+
+   object-fit: cover;
+
+}
+
+
+
+ 
+
+.students_card .student_card .student_info {
+
+   width: 100%;
+
+   text-align: center;
+
+   display: flex;
+
+   flex-direction: column;
+
+   justify-content: center !important;
+
+   padding-top: 1vw;
+
+   height: 30%;
+
+}
+
+
+ 
+
+.students_card .student_card .student_info h3 {
+
+   font-size: 4.5vw;
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   .faculty{
+
+   width: 100%;
+
+   background: #F0EBEB00;
+
+   padding: 4vw 2vw;
+
+}
+
+.faculty > h4{
+
+   color: #A5A5A5;
+
+   font-size: 1.3rem;
+
+}
+
+
+ 
+
+.faculty > h1{
+
+   font-size: 2.5rem;
+
+   padding: 2vw 0;
+
+}
+
+
+ 
+
+.faculty >.line{
+
+   display: flex;
+
+   gap: 2vw;
+
+   
+
+}
+
+
+
+ 
+
+.faculty > .line >.line-1{
+
+   width: 10vw;
+
+   height: 0.5vw;
+
+   background-color: #F8ED16;
+
+   
+
+}
+
+.faculty >.line>.line-2{
+
+   width: 3vw;
+
+   height: 0.5vw;
+
+   background-color: #C8C8C8;
+
+   
+
+}
+
+
+ 
+
+.faculty>li{
+
+   display: block;
+
+   font-size: 1rem;
+
+   padding: 5vw 0;
+
+   
+
+}
+
+
+ 
+
+.facility-swipe{
+
+  height: 65vh;
+
+  display: flex;
+
+}
+
+
+ 
+
+.facility-card {
+
+   max-width: 80%;
+
+   min-width: 80%;
+
+  background: #78D0E85E;
+
+  height: 100%;
+
+}
+
+
+
+ 
+
+.facility-card .facility-Img{
+
+   width: 100%;
+
+   height: 50%;
+
+   
+
+}
+
+
+ 
+
+.facility-Info{
+
+   padding: 3vw;
+
+   display: flex;
+
+   flex-direction: column;
+
+   gap: 2vw;
+
+   color: #FFFFFF;
+
+   background: var(--yo_color);
+
+   height: 50%;
+
+}
+
+
+
+ 
+
+.facility-card .facility-Info p{
+
+   line-height: 1.8;
+
+   
+
+   
+
+}
+
+
+ 
+
+.facility-card .facility-Info h3 {
+
+   color: #E3CE1F;
+
+   
+
+   
+
+}
+
+
+ 
+
+   
+
+   
+
+   
+
+   
+
+   
+
+}

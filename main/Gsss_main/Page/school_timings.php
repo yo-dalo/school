@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>School Timings - M Hindu Senior Secondary School</title>
+  <title>School Timings - M GSSS Senior Secondary School</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./css/model.css">
   <style>
@@ -66,7 +66,7 @@
   <h1>School Timings</h1>
 
   <p>
-    M Hindu Senior Secondary School functions with a structured schedule designed to balance academic rigor, physical activity, and creative engagement. Below is the breakdown of school and office hours for students, parents, and visitors.
+    M GSSS Senior Secondary School functions with a structured schedule designed to balance academic rigor, physical activity, and creative engagement. Below is the breakdown of school and office hours for students, parents, and visitors.
   </p>
 
   <h2>Class Timings</h2>

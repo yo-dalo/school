@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About - Hindu Senior Secondary School</title>
+  <title>About - GSSS Senior Secondary School</title>
   
     <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
@@ -29,10 +29,10 @@
     </div>
 
     <div class="container">
-      <h1>About Hindu Senior Secondary School</h1>
+      <h1>About GSSS Senior Secondary School</h1>
       <div class="about-content">
         <p>
-          Welcome to <span class="highlight">Hindu Senior Secondary School</span>, an institution dedicated to fostering academic excellence, personal growth, and moral values since its establishment. Our school is a vibrant community where students, teachers, and parents come together to create a nurturing environment that empowers young minds to thrive in an ever-changing world.
+          Welcome to <span class="highlight">GSSS Senior Secondary School</span>, an institution dedicated to fostering academic excellence, personal growth, and moral values since its establishment. Our school is a vibrant community where students, teachers, and parents come together to create a nurturing environment that empowers young minds to thrive in an ever-changing world.
         </p>
 
         <p>
@@ -40,7 +40,7 @@
         </p>
 
         <p>
-          At Hindu Senior Secondary School, we offer a well-rounded curriculum that balances academics with extracurricular activities, including sports, arts, and community service. Our state-of-the-art facilities, including modern classrooms, science and computer labs, a well-stocked library, and sports grounds, provide students with ample opportunities to explore their interests and talents.
+          At GSSS Senior Secondary School, we offer a well-rounded curriculum that balances academics with extracurricular activities, including sports, arts, and community service. Our state-of-the-art facilities, including modern classrooms, science and computer labs, a well-stocked library, and sports grounds, provide students with ample opportunities to explore their interests and talents.
         </p>
 
         <p>
@@ -52,16 +52,16 @@
         </p>
 
         <p>
-          As we move forward, we remain committed to our core values of integrity, respect, and excellence. Hindu Senior Secondary School is more than just a place of learning—it is a community where dreams are nurtured, talents are celebrated, and futures are shaped.
+          As we move forward, we remain committed to our core values of integrity, respect, and excellence. GSSS Senior Secondary School is more than just a place of learning—it is a community where dreams are nurtured, talents are celebrated, and futures are shaped.
         </p>
 
         <p>
-          We invite you to explore our website to learn more about our programs, achievements, and the vibrant life at Hindu Senior Secondary School. Join us in our journey to ignite minds and transform lives.
+          We invite you to explore our website to learn more about our programs, achievements, and the vibrant life at GSSS Senior Secondary School. Join us in our journey to ignite minds and transform lives.
         </p>
 
         <p style="text-align: right; margin-top: 30px;">
           Warm regards,<br />
-          <strong>Hindu Senior Secondary School</strong>
+          <strong>GSSS Senior Secondary School</strong>
         </p>
       </div>
     </div>

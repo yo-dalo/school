@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About the School - Hindu Senior Secondary School</title>
+  <title>About the School - GSSS Senior Secondary School</title>
 
 
 
@@ -43,7 +43,7 @@
       <div class="about-content">
         <h2>Our History</h2>
         <p>
-          Established in [Year of Establishment], <span class="highlight">Hindu Senior Secondary School</span> was founded with a vision to provide quality education rooted in Indian values and culture. From humble beginnings, the school has grown into a leading institution, recognized for its commitment to academic excellence and holistic development. Over the decades, we have nurtured generations of students who have gone on to make significant contributions to society.
+          Established in [Year of Establishment], <span class="highlight">GSSS Senior Secondary School</span> was founded with a vision to provide quality education rooted in Indian values and culture. From humble beginnings, the school has grown into a leading institution, recognized for its commitment to academic excellence and holistic development. Over the decades, we have nurtured generations of students who have gone on to make significant contributions to society.
         </p>
 
         <h2>Our Vision</h2>
@@ -53,7 +53,7 @@
 
         <h2>Our Mission</h2>
         <p>
-          At Hindu Senior Secondary School, our mission is to provide a nurturing and inclusive environment that fosters intellectual curiosity, creativity, and ethical values. We aim to:
+          At GSSS Senior Secondary School, our mission is to provide a nurturing and inclusive environment that fosters intellectual curiosity, creativity, and ethical values. We aim to:
         </p>
         <ul>
           <li>Deliver a balanced curriculum that promotes academic excellence and personal growth.</li>

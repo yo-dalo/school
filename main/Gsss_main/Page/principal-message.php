@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Principal's Message - Hindu Senior Secondary School</title>
+  <title>Principal's Message - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -29,15 +29,15 @@
       <h1>Principal’s Message</h1>
       <div class="about-content">
         <p>
-          It gives me immense pleasure to welcome you to <span class="highlight">Hindu Senior Secondary School</span> – a place of knowledge, inspiration, and transformation. At our school, we do not merely educate minds; we nurture souls, build character, and prepare young learners to face the dynamic world with confidence, courage, and compassion.
+          It gives me immense pleasure to welcome you to <span class="highlight">GSSS Senior Secondary School</span> – a place of knowledge, inspiration, and transformation. At our school, we do not merely educate minds; we nurture souls, build character, and prepare young learners to face the dynamic world with confidence, courage, and compassion.
         </p>
 
         <p>
-          As the Principal of this esteemed institution, I feel both honored and privileged to lead a team of dedicated educators and enthusiastic learners. Our school has been a beacon of academic excellence and moral integrity for years, and I take great pride in continuing the legacy of quality education that Hindu Senior Secondary School stands for.
+          As the Principal of this esteemed institution, I feel both honored and privileged to lead a team of dedicated educators and enthusiastic learners. Our school has been a beacon of academic excellence and moral integrity for years, and I take great pride in continuing the legacy of quality education that GSSS Senior Secondary School stands for.
         </p>
 
         <p>
-          Education in today’s world is not limited to textbooks and examinations. It is about nurturing creativity, encouraging critical thinking, developing leadership qualities, and instilling values that guide a child throughout life. At Hindu Senior Secondary School, we emphasize holistic development. We strive to balance academics with co-curricular activities, sports, and community service. Our curriculum is thoughtfully designed to ensure that students acquire knowledge and develop the life skills necessary for a successful and meaningful life.
+          Education in today’s world is not limited to textbooks and examinations. It is about nurturing creativity, encouraging critical thinking, developing leadership qualities, and instilling values that guide a child throughout life. At GSSS Senior Secondary School, we emphasize holistic development. We strive to balance academics with co-curricular activities, sports, and community service. Our curriculum is thoughtfully designed to ensure that students acquire knowledge and develop the life skills necessary for a successful and meaningful life.
         </p>
 
         <p>
@@ -56,7 +56,7 @@
           Warm regards,<br />
           <strong>Mr. [Principal's Full Name]</strong><br />
           Principal<br />
-          Hindu Senior Secondary School
+          GSSS Senior Secondary School
         </p>
       </div>
     </div>

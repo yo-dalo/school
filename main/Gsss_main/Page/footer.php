@@ -5,7 +5,7 @@
     <div class="footer-column">
       <h4>Quick Contact</h4>
       <p>NH-52, Hisar to Rajgarh Road,<br>Chaudharywas, Hisar (Haryana)</p>
-      <p>📞 +91-88138-70220, 21<br>📧 hindupublicschool@gmail.com</p>
+      <p>📞 +91-88138-70220, 21<br>📧 GSSSpublicschool@gmail.com</p>
       <p><span class="highlight">School Timing</span><br>Mon - Sat: 8:00AM - 3:00PM</p>
     </div>
 
@@ -35,7 +35,7 @@
     <div class="footer-column">
       <h4>Location Map</h4>
       <iframe
-        src="https://www.google.com/maps?q=hindu%20public%20school%20hisar&output=embed"
+        src="https://www.google.com/maps?q=GSSS%20public%20school%20hisar&output=embed"
         width="100%" height="200" style="border:0; border-radius: 8px;" allowfullscreen=""
         loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
@@ -44,7 +44,7 @@
   <!-- Bottom Footer Bar -->
   <div class="footer-bottom">
     <div class="footer-bottom-text">
-      <span>© 2021 © Hindu Public School, Chaudharywas, Hisar | All Rights Reserved</span>
+      <span>© 2021 © GSSS Public School, Chaudharywas, Hisar | All Rights Reserved</span>
       <span class="dev-credit">Website Designed & Developed by <span class="dev-name">Adarsh Khichi</span></span>
     </div>
   </div>

@@ -54,7 +54,7 @@ $result = mysqli_query($con, $sql);
 
 if (mysqli_num_rows($result) > 0) {
 while ($row = mysqli_fetch_assoc($result)) {
-echo "<div class='swiper-slide poster_sli'><a href='{$row['Url']}' ><img src='http://192.168.43.1:8080/x/uploads/{$row['Image']}'></a></div>";
+echo "<div class='swiper-slide poster_sli'><a href='{$row['Url']}' ><img src='http://localhost/x/uploads/{$row['Image']}'></a></div>";
 
 }
 }
@@ -103,7 +103,7 @@ Bullet-In
 <h1>Welcome to Our School</h1>
 <div class="line"></div>
 <p class="info_p">
-Rao Pahlad Singh (RPS) Sr. Sec. School, Khatod Mohindergarh, spread over 10 acres of open land in the lap of nature, is a school that was founded on the vision of spreading value-based education to every corner of the country. The vision spearheaded by Dr. O. P. Yadav, a well known advocate and educationist, is also committed passionately to the cause of quality education. This vision takes shape under the dynamism of its Chairperson Dr. Pavitra Rao and in the forth coming future the institute would be a model of quality education throughout the length and breadth of the state. Infact the school has been rooting records of its achievements for the last 23 years.
+Rao Pahlad Singh (GSSS) Sr. Sec. School, Khatod Mohindergarh, spread over 10 acres of open land in the lap of nature, is a school that was founded on the vision of spreading value-based education to every corner of the country. The vision spearheaded by Dr. O. P. Yadav, a well known advocate and educationist, is also committed passionately to the cause of quality education. This vision takes shape under the dynamism of its Chairperson Dr. Pavitra Rao and in the forth coming future the institute would be a model of quality education throughout the length and breadth of the state. Infact the school has been rooting records of its achievements for the last 23 years.
 </p>
 <div class="read_more">
 <div class="read_more_btn">
@@ -211,7 +211,7 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
    echo "<div class='student_card'> 
   
   <div class='student_img'>
-    <img src='http://192.168.43.1:8080/x/uploads/{$rrow['Image']}'>
+    <img src='http://localhost/x/uploads/{$rrow['Image']}'>
   </div>
   
   <div class='student_info'>
@@ -296,7 +296,7 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
    echo "<div class='student_card'> 
   
   <div class='student_img'>
-    <img src='http://192.168.43.1:8080/x/uploads/{$rrow['Image']}'>
+    <img src='http://localhost/x/uploads/{$rrow['Image']}'>
   </div>
   
   <div class='student_info'>
@@ -379,7 +379,7 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
 <?php foreach ($facilities as $facility): ?>
 <div class="facility-card">
 <div class="facility-Img">
-<img src="http://192.168.43.1:8080/x/uploads/<?php echo htmlspecialchars($facility['Image']); ?>" alt="" />
+<img src="http://localhost/x/uploads/<?php echo htmlspecialchars($facility['Image']); ?>" alt="" />
 </div>
 
 <div class="facility-Info">
@@ -446,7 +446,7 @@ Admissions are now open for the new academic session! We welcome young learners 
 <div class="box_Z">
 <div class="left">
 <div class="left_info">
-<h1>Life @  Hindu School</h1>
+<h1>Life @  GSSS School</h1>
 <p>
 Rai Bahadur MMM GSSS Mahender Garh: A prestigious school fostering holistic development and academic excellence in Mahender Garh.
 </p>
@@ -506,7 +506,7 @@ echo "
                                                   <div class='swiper-slide  mySwiperX2_slide'>
                                                     <div class='info_box_xyz'>
                                                       <div class='info_box_xyz_img'>
-                                                        <img src='http://192.168.43.1:8080/x/uploads/{$row_2['Image']}' alt=''>
+                                                        <img src='http://localhost/x/uploads/{$row_2['Image']}' alt=''>
                                                       </div>
                                                       <h2>{$row_2['Name']}</h2>
                                                       <li>{$row_2['Roll']}</li>
@@ -568,7 +568,7 @@ CEO Window
   
 <div class=" swiper-slide facility-card  ">
 <div class="facility-Img">
-<img src="http://192.168.43.1:8080/x/uploads/<?php echo htmlspecialchars($achiev['Image'] ?? 'No name'); ?>" alt="" />
+<img src="http://localhost/x/uploads/<?php echo htmlspecialchars($achiev['Image'] ?? 'No name'); ?>" alt="" />
 </div>
 
 <div class="facility-Info">

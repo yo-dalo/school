@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About - Hindu Senior Secondary School</title>
+  <title>About - GSSS Senior Secondary School</title>
   <link rel="stylesheet" href="../style.css" />
 
   <style>
@@ -52,13 +52,13 @@
     <div class="container">
       <div class="about-content">
         <p>
-          <span class="highlight">Hindu Senior Secondary School</span> is a premier institution committed to delivering quality education and fostering all-round development in students. Established with a vision to promote academic excellence, discipline, and moral values, our school has become a trusted name in the field of education.
+          <span class="highlight">GSSS Senior Secondary School</span> is a premier institution committed to delivering quality education and fostering all-round development in students. Established with a vision to promote academic excellence, discipline, and moral values, our school has become a trusted name in the field of education.
         </p>
         <p>
           The school offers classes from Nursery to Class XII and follows a well-structured CBSE curriculum. We focus on a holistic learning approach that blends academics, sports, arts, and cultural activities. Our faculty is highly qualified and dedicated to nurturing each child’s unique potential.
         </p>
         <p>
-          With modern classrooms, laboratories, a rich library, and various co-curricular clubs, we aim to make learning a joyful and meaningful experience. At Hindu Senior Secondary School, we believe in shaping responsible citizens and future leaders.
+          With modern classrooms, laboratories, a rich library, and various co-curricular clubs, we aim to make learning a joyful and meaningful experience. At GSSS Senior Secondary School, we believe in shaping responsible citizens and future leaders.
         </p>
         <p>
           <strong>Our Motto:</strong> "Knowledge. Discipline. Progress."

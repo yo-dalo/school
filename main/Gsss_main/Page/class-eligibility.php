@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Class-wise Eligibility - Hindu Senior Secondary School</title>
+  <title>Class-wise Eligibility - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -37,7 +37,7 @@
       <h1>Class-wise Eligibility Criteria</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, we follow specific eligibility criteria for admissions to ensure age-appropriate placement and academic readiness. Below is the class-wise eligibility for the academic year [Insert Year, e.g., 2025-26].
+          At <span class="highlight">GSSS Senior Secondary School</span>, we follow specific eligibility criteria for admissions to ensure age-appropriate placement and academic readiness. Below is the class-wise eligibility for the academic year [Insert Year, e.g., 2025-26].
         </p>
 
         <table>

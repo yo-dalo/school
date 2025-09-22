@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Academic Calendar - Hindu Senior Secondary School</title>
+  <title>Academic Calendar - GSSS Senior Secondary School</title>
   
   
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -33,7 +33,7 @@
       <h1>Academic Calendar [Insert Year, e.g., 2025-26]</h1>
       <div class="about-content">
         <p>
-          The academic calendar at <span class="highlight">Hindu Senior Secondary School</span> outlines key dates for the academic year, including examinations, holidays, and school events. This calendar helps students, parents, and staff plan effectively for the year ahead.
+          The academic calendar at <span class="highlight">GSSS Senior Secondary School</span> outlines key dates for the academic year, including examinations, holidays, and school events. This calendar helps students, parents, and staff plan effectively for the year ahead.
         </p>
 
         <table>

@@ -2,8 +2,8 @@
 // Assuming database connection is established
 $servername = "127.0.0.1";
 $username = "root";
-$password = "root";
-$database = "girl_school";
+$password = "";
+$database = "school";
 $database1 = "school";
 
 // Create connection

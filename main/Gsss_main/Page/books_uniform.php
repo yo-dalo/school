@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Books & Uniform - M Hindu Senior Secondary School</title>
+  <title>Books & Uniform - M GSSS Senior Secondary School</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./css/model.css">
   <style>

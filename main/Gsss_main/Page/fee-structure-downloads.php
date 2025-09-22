@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fee Structure Downloads - Hindu Senior Secondary School</title>
+  <title>Fee Structure Downloads - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -29,7 +29,7 @@
       <h1>Fee Structure Downloads</h1>
       <div class="about-content">
         <p>
-          The fee structure for <span class="highlight">Hindu Senior Secondary School</span> for the academic year [Insert Year, e.g., 2025-26] is available for download. This document provides detailed information on tuition fees, additional charges, and payment schedules.
+          The fee structure for <span class="highlight">GSSS Senior Secondary School</span> for the academic year [Insert Year, e.g., 2025-26] is available for download. This document provides detailed information on tuition fees, additional charges, and payment schedules.
         </p>
 
         <table>

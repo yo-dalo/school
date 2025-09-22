@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Competitions - Hindu Senior Secondary School</title>
+  <title>Competitions - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -34,7 +34,7 @@
       <h1>Competitions (Debates, Quizzes)</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, we encourage intellectual growth and communication skills through a variety of competitive events such as debates, quizzes, and elocution contests. These competitions provide students with platforms to showcase their knowledge, critical thinking, and public speaking abilities.
+          At <span class="highlight">GSSS Senior Secondary School</span>, we encourage intellectual growth and communication skills through a variety of competitive events such as debates, quizzes, and elocution contests. These competitions provide students with platforms to showcase their knowledge, critical thinking, and public speaking abilities.
         </p>
 
         <h3>Key Competitions</h3>

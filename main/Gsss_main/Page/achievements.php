@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>School Achievements - Hindu Senior Secondary School</title>
+  <title>School Achievements - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -17,7 +17,7 @@
   <div class="page_1">
     <!-- Header Include -->
       <?php
-require("../php/conn.php"); require("../php/function.php");
+require("../php/conn.php"); 
 require("../php/function.php");
 require("./header.php");
           ?>
@@ -30,7 +30,7 @@ require("./header.php");
       <h1>Our Achievements</h1>
       <div class="about-content">
         <p>
-          <span class="highlight">Hindu Senior Secondary School</span> takes pride in the accomplishments of our students, faculty, and alumni, who have consistently brought laurels to the institution through their excellence in academics, sports, arts, and social initiatives. Below is a glimpse of our notable achievements:
+          <span class="highlight">GSSS Senior Secondary School</span> takes pride in the accomplishments of our students, faculty, and alumni, who have consistently brought laurels to the institution through their excellence in academics, sports, arts, and social initiatives. Below is a glimpse of our notable achievements:
         </p>
 
         <h3>Academic Excellence</h3>

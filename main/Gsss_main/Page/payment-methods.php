@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Payment Methods - Hindu Senior Secondary School</title>
+  <title>Payment Methods - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   
       <link rel="stylesheet" href="../css/header/nav.css">
       <link rel="stylesheet" href="../css/header/navBar.css">  
@@ -33,13 +33,13 @@
       <h1>Payment Methods</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, we offer multiple payment methods to ensure convenience for parents and guardians when paying school fees for the academic year [Insert Year, e.g., 2025-26]. Below are the available options:
+          At <span class="highlight">GSSS Senior Secondary School</span>, we offer multiple payment methods to ensure convenience for parents and guardians when paying school fees for the academic year [Insert Year, e.g., 2025-26]. Below are the available options:
         </p>
 
         <ul>
           <li><strong>Online Payment:</strong> Pay fees through our secure online portal using credit/debit cards, net banking, or UPI. Access the portal at [Insert Portal Link].</li>
           <li><strong>Bank Transfer:</strong> Direct bank transfers to the school’s account. Bank details are available in the <a href="fee-structure-downloads.html">Fee Structure Downloads</a> PDF.</li>
-          <li><strong>Cash/Cheque:</strong> Payments can be made at the school office during working hours. Cheques should be drawn in favor of [Insert Payee Name, e.g., Hindu Senior Secondary School].</li>
+          <li><strong>Cash/Cheque:</strong> Payments can be made at the school office during working hours. Cheques should be drawn in favor of [Insert Payee Name, e.g., GSSS Senior Secondary School].</li>
           <li><strong>Installment Plans:</strong> Option to pay fees in installments (subject to school policy). Contact the school office for details.</li>
         </ul>
 

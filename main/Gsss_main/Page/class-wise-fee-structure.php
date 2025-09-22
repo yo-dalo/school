@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Class-wise Fee Structure - Hindu Senior Secondary School</title>
+  <title>Class-wise Fee Structure - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -37,7 +37,7 @@
       <h1>Class-wise Fee Structure [Insert Year, e.g., 2025-26]</h1>
       <div class="about-content">
         <p>
-          The class-wise fee structure for <span class="highlight">Hindu Senior Secondary School</span> outlines the tuition and additional fees for each class for the academic year [Insert Year, e.g., 2025-26]. The fees are designed to support our high-quality education and facilities.
+          The class-wise fee structure for <span class="highlight">GSSS Senior Secondary School</span> outlines the tuition and additional fees for each class for the academic year [Insert Year, e.g., 2025-26]. The fees are designed to support our high-quality education and facilities.
         </p>
 
         <table>

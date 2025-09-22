@@ -138,7 +138,7 @@
 
         <div class="content">
           <h2>Contact Address</h2>
-          <h3>Hindu Public School</h3>
+          <h3>GSSS Public School</h3>
           <p>
             <span class="label">Address :</span> NH-52, Hisar to Rajgarh Road, Chaudharywas, Hisar (Haryana) 125001
           </p>
@@ -149,10 +149,10 @@
             <span class="label">Mobile :</span> <a href="tel:8813870220">8813870220</a>, <a href="tel:9817238620">9817238620</a>
           </p>
           <p>
-            <span class="label">Email :</span> <a href="mailto:hindupublicschool@gmail.com">hindupublicschool@gmail.com</a>
+            <span class="label">Email :</span> <a href="mailto:GSSSpublicschool@gmail.com">GSSSpublicschool@gmail.com</a>
           </p>
           <p>
-            <span class="label">Website :</span> <a href="http://hindupublicschool.org" target="_blank">http://hindupublicschool.org</a>
+            <span class="label">Website :</span> <a href="http://GSSSpublicschool.org" target="_blank">http://GSSSpublicschool.org</a>
           </p>
           <p>
             <span class="label">Facebook :</span> <a href="https://www.facebook.com/groups/793416251069802/" target="_blank">https://www.facebook.com/groups/793416251069802/</a>

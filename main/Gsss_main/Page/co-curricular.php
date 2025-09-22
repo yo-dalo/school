@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Co-Curricular Activities - Hindu Senior Secondary School</title>
+  <title>Co-Curricular Activities - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -34,7 +34,7 @@
       <h1>Co-Curricular Activities</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, we believe in the holistic development of our students. Our co-curricular activities are designed to complement academic learning, fostering creativity, teamwork, leadership, and personal growth.
+          At <span class="highlight">GSSS Senior Secondary School</span>, we believe in the holistic development of our students. Our co-curricular activities are designed to complement academic learning, fostering creativity, teamwork, leadership, and personal growth.
         </p>
 
         <p>

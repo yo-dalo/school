@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Annual Function - Hindu Senior Secondary School</title>
+  <title>Annual Function - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -33,7 +33,7 @@
       <h1>Annual Function</h1>
       <div class="about-content">
         <p>
-          The Annual Function at <span class="highlight">Hindu Senior Secondary School</span> is a much-awaited event that celebrates the talents, achievements, and spirit of our students. Held annually, this vibrant event brings together students, parents, staff, and the community to showcase the creativity and accomplishments of our school.
+          The Annual Function at <span class="highlight">GSSS Senior Secondary School</span> is a much-awaited event that celebrates the talents, achievements, and spirit of our students. Held annually, this vibrant event brings together students, parents, staff, and the community to showcase the creativity and accomplishments of our school.
         </p>
 
         <p>

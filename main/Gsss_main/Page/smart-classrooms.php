@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Smart Classrooms - Hindu Senior Secondary School</title>
+  <title>Smart Classrooms - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
     <link rel="stylesheet" href="../css/utility/page-utility.css">
@@ -28,7 +28,7 @@
       <h1>Smart Classrooms</h1>
       <div class="about-content">
         <p>
-          <span class="highlight">Hindu Senior Secondary School</span> is equipped with state-of-the-art smart classrooms designed to enhance the learning experience through technology. Our smart classrooms integrate modern tools to make lessons interactive, engaging, and effective.
+          <span class="highlight">GSSS Senior Secondary School</span> is equipped with state-of-the-art smart classrooms designed to enhance the learning experience through technology. Our smart classrooms integrate modern tools to make lessons interactive, engaging, and effective.
         </p>
 
         <p>

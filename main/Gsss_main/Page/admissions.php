@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admissions - Hindu Senior Secondary School</title>
+  <title>Admissions - GSSS Senior Secondary School</title>
     <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
  <link rel="stylesheet" href="../css/header/navBar.css">
@@ -20,7 +20,7 @@
   <div class="page_1">
     <!-- Header Include -->
         <?php
-require("../php/conn.php"); require("../php/function.php");
+require("../php/conn.php"); 
 require("../php/function.php");
 require("./header.php");
           ?>
@@ -30,10 +30,10 @@ require("./header.php");
     </div>
 
     <div class="container">
-      <h1>Admissions at Hindu Senior Secondary School</h1>
+      <h1>Admissions at GSSS Senior Secondary School</h1>
       <div class="about-content">
         <p>
-          Welcome to the admissions section of <span class="highlight">Hindu Senior Secondary School</span>. We are delighted that you are considering our institution for your child’s educational journey. Our school is committed to providing a nurturing environment that fosters academic excellence, personal growth, and holistic development.
+          Welcome to the admissions section of <span class="highlight">GSSS Senior Secondary School</span>. We are delighted that you are considering our institution for your child’s educational journey. Our school is committed to providing a nurturing environment that fosters academic excellence, personal growth, and holistic development.
         </p>
 
         <p>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Playground & Sports Facilities - Hindu Senior Secondary School</title>
+  <title>Playground & Sports Facilities - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
     <link rel="stylesheet" href="../css/utility/page-utility.css">
@@ -29,7 +29,7 @@
       <h1>Playground & Sports Facilities</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, we believe in the importance of physical fitness and sportsmanship. Our extensive playground and sports facilities provide students with opportunities to engage in various sports and recreational activities.
+          At <span class="highlight">GSSS Senior Secondary School</span>, we believe in the importance of physical fitness and sportsmanship. Our extensive playground and sports facilities provide students with opportunities to engage in various sports and recreational activities.
         </p>
 
         <p>

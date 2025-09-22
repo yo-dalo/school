@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Curriculum & Subjects Offered - Hindu Senior Secondary School</title>
+  <title>Curriculum & Subjects Offered - GSSS Senior Secondary School</title>
     <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
  <link rel="stylesheet" href="../css/header/navBar.css">
@@ -30,7 +30,7 @@
       <h1>Curriculum & Subjects Offered</h1>
       <div class="about-content">
         <p>
-          The curriculum at <span class="highlight">Hindu Senior Secondary School</span> is designed to provide a comprehensive and balanced education, aligned with [Insert Board, e.g., CBSE] guidelines. Our subjects are carefully selected to cater to the diverse interests and career aspirations of our students, fostering both academic excellence and personal growth.
+          The curriculum at <span class="highlight">GSSS Senior Secondary School</span> is designed to provide a comprehensive and balanced education, aligned with [Insert Board, e.g., CBSE] guidelines. Our subjects are carefully selected to cater to the diverse interests and career aspirations of our students, fostering both academic excellence and personal growth.
         </p>
 
         <h3>Primary Level (Classes I-V)</h3>

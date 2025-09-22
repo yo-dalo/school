@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sports Day - Hindu Senior Secondary School</title>
+  <title>Sports Day - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
     <link rel="stylesheet" href="../css/utility/page-utility.css">
@@ -29,7 +29,7 @@
       <h1>Sports Day</h1>
       <div class="about-content">
         <p>
-          <span class="highlight">Hindu Senior Secondary School</span> celebrates Sports Day as a vibrant event that promotes physical fitness, teamwork, and sportsmanship among students. This annual event is a highlight of our co-curricular calendar, bringing together students, parents, and staff in a spirit of healthy competition and camaraderie.
+          <span class="highlight">GSSS Senior Secondary School</span> celebrates Sports Day as a vibrant event that promotes physical fitness, teamwork, and sportsmanship among students. This annual event is a highlight of our co-curricular calendar, bringing together students, parents, and staff in a spirit of healthy competition and camaraderie.
         </p>
 
         <p>

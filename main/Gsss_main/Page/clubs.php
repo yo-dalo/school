@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clubs - Hindu Senior Secondary School</title>
+  <title>Clubs - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -36,7 +36,7 @@
       <h1>Our Clubs</h1>
       <div class="about-content">
         <p>
-          <span class="highlight">Hindu Senior Secondary School</span> offers a variety of clubs to encourage students to pursue their passions, develop new skills, and contribute to the community. Our clubs provide platforms for innovation, leadership, and social responsibility, fostering well-rounded individuals.
+          <span class="highlight">GSSS Senior Secondary School</span> offers a variety of clubs to encourage students to pursue their passions, develop new skills, and contribute to the community. Our clubs provide platforms for innovation, leadership, and social responsibility, fostering well-rounded individuals.
         </p>
 
         <h3>Our Clubs</h3>

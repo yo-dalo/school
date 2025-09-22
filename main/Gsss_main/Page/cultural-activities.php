@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cultural Activities - Hindu Senior Secondary School</title>
+  <title>Cultural Activities - GSSS Senior Secondary School</title>
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
@@ -32,7 +32,7 @@
       <h1>Cultural Activities</h1>
       <div class="about-content">
         <p>
-          Cultural activities at <span class="highlight">Hindu Senior Secondary School</span> are an integral part of our holistic education approach, celebrating creativity, diversity, and cultural heritage. These activities provide students with opportunities to explore their artistic talents and develop an appreciation for various art forms.
+          Cultural activities at <span class="highlight">GSSS Senior Secondary School</span> are an integral part of our holistic education approach, celebrating creativity, diversity, and cultural heritage. These activities provide students with opportunities to explore their artistic talents and develop an appreciation for various art forms.
         </p>
 
         <p>

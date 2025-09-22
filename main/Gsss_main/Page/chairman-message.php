@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chairman's Message - Hindu Senior Secondary School</title>
+  <title>Chairman's Message - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -23,7 +23,7 @@
   <div class="page_1">
     <!-- Header Include -->
       <?php
-require("../php/conn.php"); require("../php/function.php");
+require("../php/conn.php"); 
 require("../php/function.php");
 require("./header.php");
           ?>
@@ -36,7 +36,7 @@ require("./header.php");
       <h1>Chairman’s Message</h1>
       <div class="about-content">
         <p>
-          Greetings from the <span class="highlight">Hindu Senior Secondary School</span> family. As the Chairman, it is my privilege to address you and share our vision for an institution that stands as a pillar of education, values, and community service.
+          Greetings from the <span class="highlight">GSSS Senior Secondary School</span> family. As the Chairman, it is my privilege to address you and share our vision for an institution that stands as a pillar of education, values, and community service.
         </p>
 
         <p>
@@ -44,7 +44,7 @@ require("./header.php");
         </p>
 
         <p>
-          At Hindu Senior Secondary School, we believe that education is a transformative force. It shapes not only careers but also character, fostering individuals who contribute meaningfully to society. Our dedicated faculty, modern infrastructure, and innovative teaching methodologies ensure that every student receives a well-rounded education that prepares them for the challenges of the future.
+          At GSSS Senior Secondary School, we believe that education is a transformative force. It shapes not only careers but also character, fostering individuals who contribute meaningfully to society. Our dedicated faculty, modern infrastructure, and innovative teaching methodologies ensure that every student receives a well-rounded education that prepares them for the challenges of the future.
         </p>
 
         <p>
@@ -52,14 +52,14 @@ require("./header.php");
         </p>
 
         <p>
-          I extend my gratitude to our faculty, staff, parents, and students for their unwavering support and dedication. Together, we will continue to uphold the legacy of Hindu Senior Secondary School and strive for excellence in all that we do.
+          I extend my gratitude to our faculty, staff, parents, and students for their unwavering support and dedication. Together, we will continue to uphold the legacy of GSSS Senior Secondary School and strive for excellence in all that we do.
         </p>
 
         <p style="text-align: right; margin-top: 30px;">
           Warm regards,<br />
           <strong>Mr. [Chairman's Full Name]</strong><br />
           Chairman<br />
-          Hindu Senior Secondary School
+          GSSS Senior Secondary School
         </p>
       </div>
     </div>

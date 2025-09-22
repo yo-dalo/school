@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Downloads Admission Form - Hindu Senior Secondary School</title>
+  <title>Downloads Admission Form - GSSS Senior Secondary School</title>
 
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
@@ -33,7 +33,7 @@
       <h1>Admission Form Downloads</h1>
       <div class="about-content">
         <p>
-          Download the admission forms for <span class="highlight">Hindu Senior Secondary School</span> for the academic year [Insert Year, e.g., 2025-26]. Both online and offline forms are available for your convenience.
+          Download the admission forms for <span class="highlight">GSSS Senior Secondary School</span> for the academic year [Insert Year, e.g., 2025-26]. Both online and offline forms are available for your convenience.
         </p>
 
         <table>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Documents Required - Hindu Senior Secondary School</title>
+  <title>Documents Required - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
     <link rel="stylesheet" href="../css/utility/page-utility.css">
@@ -28,7 +28,7 @@
       <h1>Documents Required for Admission</h1>
       <div class="about-content">
         <p>
-          To ensure a smooth admission process at <span class="highlight">Hindu Senior Secondary School</span>, parents/guardians are required to submit the following documents along with the completed admission form. Please ensure all documents are attested where required.
+          To ensure a smooth admission process at <span class="highlight">GSSS Senior Secondary School</span>, parents/guardians are required to submit the following documents along with the completed admission form. Please ensure all documents are attested where required.
         </p>
 
         <ul>

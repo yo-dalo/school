@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Academics - Hindu Senior Secondary School</title>
+  <title>Academics - GSSS Senior Secondary School</title>
     <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
  <link rel="stylesheet" href="../css/header/navBar.css">
@@ -28,10 +28,10 @@
     </div>
 
     <div class="container">
-      <h1>Academics at Hindu Senior Secondary School</h1>
+      <h1>Academics at GSSS Senior Secondary School</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, our academic programs are designed to foster intellectual curiosity, critical thinking, and a passion for lifelong learning. Affiliated with [Insert Board, e.g., CBSE], we offer a robust curriculum that balances academic rigor with holistic development, preparing students for success in a dynamic world.
+          At <span class="highlight">GSSS Senior Secondary School</span>, our academic programs are designed to foster intellectual curiosity, critical thinking, and a passion for lifelong learning. Affiliated with [Insert Board, e.g., CBSE], we offer a robust curriculum that balances academic rigor with holistic development, preparing students for success in a dynamic world.
         </p>
 
         <p>

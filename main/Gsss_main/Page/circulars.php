@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Circulars - Hindu Senior Secondary School</title>
+  <title>Circulars - GSSS Senior Secondary School</title>
 
     <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
@@ -34,7 +34,7 @@
       <h1>Circulars</h1>
       <div class="about-content">
         <p>
-          The Circulars section at <span class="highlight">Hindu Senior Secondary School</span> provides official communications from the school administration regarding policies, events, and other important updates. Below are the latest circulars for the academic year [Insert Year, e.g., 2025-26].
+          The Circulars section at <span class="highlight">GSSS Senior Secondary School</span> provides official communications from the school administration regarding policies, events, and other important updates. Below are the latest circulars for the academic year [Insert Year, e.g., 2025-26].
         </p>
 
         <table>

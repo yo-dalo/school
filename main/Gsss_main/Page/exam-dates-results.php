@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exam Dates & Results - Hindu Senior Secondary School</title>
+  <title>Exam Dates & Results - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -29,7 +29,7 @@
       <h1>Exam Dates & Results</h1>
       <div class="about-content">
         <p>
-          The Exam Dates & Results section at <span class="highlight">Hindu Senior Secondary School</span> provides information on examination schedules and result announcements for the academic year [Insert Year, e.g., 2025-26].
+          The Exam Dates & Results section at <span class="highlight">GSSS Senior Secondary School</span> provides information on examination schedules and result announcements for the academic year [Insert Year, e.g., 2025-26].
         </p>
 
         <h3>Examination Schedule</h3>

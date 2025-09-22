@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Teaching Methodology - Hindu Senior Secondary School</title>
+  <title>Teaching Methodology - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
     <link rel="stylesheet" href="../css/utility/page-utility.css">
 
@@ -27,7 +27,7 @@
       <h1>Teaching Methodology</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, our teaching methodology is designed to create an engaging, interactive, and student-centered learning environment. We blend traditional and modern pedagogical approaches to ensure that every student reaches their full potential.
+          At <span class="highlight">GSSS Senior Secondary School</span>, our teaching methodology is designed to create an engaging, interactive, and student-centered learning environment. We blend traditional and modern pedagogical approaches to ensure that every student reaches their full potential.
         </p>
 
         <p>

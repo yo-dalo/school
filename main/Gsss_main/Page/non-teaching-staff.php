@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Non-Teaching Staff - Hindu Senior Secondary School</title>
+  <title>Non-Teaching Staff - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
     <link rel="stylesheet" href="../css/utility/page-utility.css">
@@ -29,7 +29,7 @@
       <h1>Our Non-Teaching Staff</h1>
       <div class="about-content">
         <p>
-          The non-teaching staff at <span class="highlight">Hindu Senior Secondary School</span> plays a crucial role in ensuring the smooth operation of our institution. Their dedication and hard work create a supportive and organized environment for students, teachers, and parents.
+          The non-teaching staff at <span class="highlight">GSSS Senior Secondary School</span> plays a crucial role in ensuring the smooth operation of our institution. Their dedication and hard work create a supportive and organized environment for students, teachers, and parents.
         </p>
 
         <h3>Administrative Staff</h3>

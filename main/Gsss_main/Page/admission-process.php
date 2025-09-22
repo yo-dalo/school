@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admission Process - Hindu Senior Secondary School</title>
+  <title>Admission Process - GSSS Senior Secondary School</title>
     <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
  <link rel="stylesheet" href="../css/header/navBar.css">
@@ -33,7 +33,7 @@
       <h1>Admission Process</h1>
       <div class="about-content">
         <p>
-          The admission process at <span class="highlight">Hindu Senior Secondary School</span> is designed to be transparent and straightforward. We aim to make the process seamless for parents and guardians seeking admission for their children. Below is a step-by-step guide to our admission process:
+          The admission process at <span class="highlight">GSSS Senior Secondary School</span> is designed to be transparent and straightforward. We aim to make the process seamless for parents and guardians seeking admission for their children. Below is a step-by-step guide to our admission process:
         </p>
 
         <h3>Steps for Admission</h3>

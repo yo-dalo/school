@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>News Detail - M Hindu Senior Secondary School</title>
+  <title>News Detail - M GSSS Senior Secondary School</title>
     <link rel="stylesheet" href="../css/utility/main-utility.css">
     <link rel="stylesheet" href="../css/header/nav.css">
     <link rel="stylesheet" href="../css/header/navBar.css">
@@ -18,8 +18,6 @@
       background-color: #f4f4f4;
     }
     .container {
-      max-width: 800px;
-      margin: 40px auto;
       padding: 20px 20px;
       background-color: #fff;
       border-radius: 0px;
@@ -55,7 +53,7 @@
       <!-- model -->
       <!-- Button trigger modal -->
       <?php
-require("../php/conn.php"); require("../php/function.php");
+require("../php/conn.php"); 
 require("../php/function.php");
 require("./header.php");
           ?>

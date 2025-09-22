@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Staff - Hindu Senior Secondary School</title>
+  <title>Staff - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
     <link rel="stylesheet" href="../css/utility/page-utility.css">
 
@@ -27,7 +27,7 @@
       <h1>Our Staff</h1>
       <div class="about-content">
         <p>
-          At <span class="highlight">Hindu Senior Secondary School</span>, our staff is the backbone of our institution, dedicated to nurturing young minds and fostering a supportive learning environment. Comprising both teaching and non-teaching members, our team is committed to the holistic development of every student.
+          At <span class="highlight">GSSS Senior Secondary School</span>, our staff is the backbone of our institution, dedicated to nurturing young minds and fostering a supportive learning environment. Comprising both teaching and non-teaching members, our team is committed to the holistic development of every student.
         </p>
 
         <p>

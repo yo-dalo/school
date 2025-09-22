@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Class Timetables - M Hindu Senior Secondary School</title>
+  <title>Class Timetables - M GSSS Senior Secondary School</title>
   <link rel="stylesheet" href="style.css">
   <style>
     body {

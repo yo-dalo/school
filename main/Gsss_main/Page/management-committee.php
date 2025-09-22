@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Management Committee - Hindu Senior Secondary School</title>
+  <title>Management Committee - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -29,7 +29,7 @@
       <h1>Our Management Committee</h1>
       <div class="about-content">
         <p>
-          The Management Committee of <span class="highlight">Hindu Senior Secondary School</span> comprises distinguished individuals who guide the institution with vision, integrity, and a commitment to excellence. The committee is responsible for overseeing the school’s policies, strategic planning, and overall development, ensuring that we remain true to our mission of providing quality education.
+          The Management Committee of <span class="highlight">GSSS Senior Secondary School</span> comprises distinguished individuals who guide the institution with vision, integrity, and a commitment to excellence. The committee is responsible for overseeing the school’s policies, strategic planning, and overall development, ensuring that we remain true to our mission of providing quality education.
         </p>
 
         <h3>Committee Members</h3>
@@ -73,7 +73,7 @@
         </table>
 
         <p>
-          Our Management Committee works closely with the school administration, faculty, and parents to ensure a nurturing and progressive environment for our students. Their leadership and dedication are instrumental in upholding the values and standards of Hindu Senior Secondary School.
+          Our Management Committee works closely with the school administration, faculty, and parents to ensure a nurturing and progressive environment for our students. Their leadership and dedication are instrumental in upholding the values and standards of GSSS Senior Secondary School.
         </p>
       </div>
     </div>

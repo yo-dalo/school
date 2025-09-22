@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>News & Notices - Hindu Senior Secondary School</title>
+  <title>News & Notices - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
     <link rel="stylesheet" href="../css/utility/page-utility.css">
@@ -28,7 +28,7 @@
       <h1>News & Notices</h1>
       <div class="about-content">
         <p>
-          Stay updated with the latest happenings at <span class="highlight">Hindu Senior Secondary School</span>. Our News & Notices section provides important announcements, upcoming events, and key updates for students, parents, and the school community.
+          Stay updated with the latest happenings at <span class="highlight">GSSS Senior Secondary School</span>. Our News & Notices section provides important announcements, upcoming events, and key updates for students, parents, and the school community.
         </p>
 
         <p>

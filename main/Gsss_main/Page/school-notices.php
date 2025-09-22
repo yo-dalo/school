@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>School Notices - Hindu Senior Secondary School</title>
+  <title>School Notices - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css"> 
       <link rel="stylesheet" href="../css/header/nav.css">
       
@@ -31,7 +31,7 @@
       <h1>School Notices</h1>
       <div class="about-content">
         <p>
-          The School Notices section at <span class="highlight">Hindu Senior Secondary School</span> keeps our community informed about important announcements, events, and updates. Below is a list of recent notices for the academic year [Insert Year, e.g., 2025-26].
+          The School Notices section at <span class="highlight">GSSS Senior Secondary School</span> keeps our community informed about important announcements, events, and updates. Below is a list of recent notices for the academic year [Insert Year, e.g., 2025-26].
         </p>
 
         <table>

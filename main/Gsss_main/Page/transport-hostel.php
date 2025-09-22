@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Transport & Hostel - Hindu Senior Secondary School</title>
+  <title>Transport & Hostel - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -28,7 +28,7 @@
       <h1>Transport & Hostel Facilities</h1>
       <div class="about-content">
         <p>
-          <span class="highlight">Hindu Senior Secondary School</span> is committed to ensuring the convenience and safety of our students through reliable transport services and comfortable hostel facilities (if available).
+          <span class="highlight">GSSS Senior Secondary School</span> is committed to ensuring the convenience and safety of our students through reliable transport services and comfortable hostel facilities (if available).
         </p>
 
         <h3>Transport Facilities</h3>

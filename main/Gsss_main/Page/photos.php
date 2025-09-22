@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Photos - Hindu Senior Secondary School</title>
+  <title>Photos - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -30,7 +30,7 @@
       <h1>Photo Gallery</h1>
       <div class="about-content">
         <p>
-          Explore the vibrant moments captured at <span class="highlight">Hindu Senior Secondary School</span>. Our photo gallery showcases memories from school functions, classrooms, and sports events, reflecting the dynamic and enriching environment of our institution.
+          Explore the vibrant moments captured at <span class="highlight">GSSS Senior Secondary School</span>. Our photo gallery showcases memories from school functions, classrooms, and sports events, reflecting the dynamic and enriching environment of our institution.
         </p>
 
         <h3>School Functions</h3>

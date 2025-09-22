@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Science Labs - Hindu Senior Secondary School</title>
+  <title>Science Labs - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">  
       <link rel="stylesheet" href="../css/header/nav.css"> 
       <link rel="stylesheet" href="../css/header/navBar.css"> 
@@ -31,7 +31,7 @@
       <h1>Science Labs</h1>
       <div class="about-content">
         <p>
-          Our science labs at <span class="highlight">Hindu Senior Secondary School</span> are modern, well-equipped facilities that foster hands-on learning and scientific inquiry. Separate labs for Physics, Chemistry, and Biology provide students with practical experience to complement their theoretical studies.
+          Our science labs at <span class="highlight">GSSS Senior Secondary School</span> are modern, well-equipped facilities that foster hands-on learning and scientific inquiry. Separate labs for Physics, Chemistry, and Biology provide students with practical experience to complement their theoretical studies.
         </p>
 
         <p>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>School at a Glance - Hindu Senior Secondary School</title>
+  <title>School at a Glance - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
     <link rel="stylesheet" href="../css/utility/page-utility.css">
 
@@ -13,7 +13,7 @@
   <div class="page_1">
     <!-- Header Include -->
       <?php
-require("../php/conn.php"); require("../php/function.php");
+require("../php/conn.php"); 
 require("../php/function.php");
 require("./header.php");
           ?>
@@ -26,7 +26,7 @@ require("./header.php");
       <h1>School at a Glance</h1>
       <div class="about-content">
         <p>
-          <span class="highlight">Hindu Senior Secondary School</span> is a premier educational institution committed to fostering academic excellence and holistic development. Below is an overview of our institution’s key highlights:
+          <span class="highlight">GSSS Senior Secondary School</span> is a premier educational institution committed to fostering academic excellence and holistic development. Below is an overview of our institution’s key highlights:
         </p>
 
         <h3>Key Statistics</h3>
@@ -59,7 +59,7 @@ require("./header.php");
         </ul>
 
         <p>
-          Hindu Senior Secondary School is dedicated to creating a nurturing environment where every student can excel academically, socially, and personally. We invite you to visit our campus and witness our commitment to education firsthand.
+          GSSS Senior Secondary School is dedicated to creating a nurturing environment where every student can excel academically, socially, and personally. We invite you to visit our campus and witness our commitment to education firsthand.
         </p>
       </div>
     </div>

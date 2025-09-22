@@ -3,31 +3,40 @@
         <div class="left">
           <div class="box">
             <div class="box_img">
-              <img src="../img/example/21_john-elliott-nepal_WORKS_e49f8295ccc5a85e1a76e2d68c06456f.jpg" alt="">
+              <img src="../img/top_log/admin.jpg" alt="">
             </div>
             <div class="box_info">
               <h2>C.E.O</h2>
               <p>window</p>
             </div>
           </div>
+          <a  href="news_list.php">
+
+          <div class="box">
+
+            <div class="box_img">
+              <img src="../img/top_log/noties.jpg" alt="">
+            </div>
+
+            <div class="box_info">
+              <h2>Notice</h2>
+              <p>Board</p>
+              
+            </div>
+          </div>
+         </a>
+          <a  href="blog_list.php">
+
           <div class="box">
             <div class="box_img">
-              <img src="../img/example/21_john-elliott-nepal_WORKS_e49f8295ccc5a85e1a76e2d68c06456f.jpg" alt="">
+              <img src="../img/top_log/blog.jpg" alt="">
             </div>
             <div class="box_info">
-              <h2>C.E.O</h2>
+              <h2>Blogs</h2>
               <p>window</p>
             </div>
           </div>
-          <div class="box">
-            <div class="box_img">
-              <img src="../img/example/21_john-elliott-nepal_WORKS_e49f8295ccc5a85e1a76e2d68c06456f.jpg" alt="">
-            </div>
-            <div class="box_info">
-              <h2>C.E.O</h2>
-              <p>window</p>
-            </div>
-          </div>
+         </a>
 
         </div>
         <div class="right">
@@ -47,8 +56,6 @@
             <div class="icon_box">
               <img src="../icone/youtube.png" alt="">
             </div>
-
-
           </div>
         </div>
       </nav>
@@ -58,10 +65,30 @@
         <div class="left">
           <a href="./">
           <div class="left_img_box">
-            <img src="../img/logo/hindu_logo.png" alt="">
+            <img src="../img/logo/gsss.png" alt="">
           </div>
           </a>
         </div>
+        
+  <div class="left">
+          <a href="./">
+          <div class="left_img_box">
+            <img src="../img/logo/logo_2.png" alt="">
+          </div>
+          </a>
+        </div>
+
+
+
+          <div class="left">
+          <a href="./">
+          <div class="left_img_box">
+            <img src="../img/logo/logo_3.png" alt="">
+          </div>
+          </a>
+        </div>
+
+
         <div class="right">
           <div class="right_img_box">
             <img src="../img/online.gif" alt="">
@@ -82,93 +109,140 @@
     <li><a href="./index.php">Home</a></li>
 
     <li class="has-dropdown">
-      <a href="./about.php">About Us ▾</a>
+      <a href="#">About Us ▾</a>
       <ul class="dropdown">
-        <li><a href="./about-school.php">About RPS M/garh</a></li>
-        <li><a href="./fee-details.php">Vision & Mission</a></li>
-        <li><a href="./exam-dates-results.php">RPS Society</a></li>
-        <li><a href="./management-committee.php">SMC</a></li>
-        <li><a href="./school-at-glance.php">Period of Affiliation</a></li>
-        <li><a href="./chairman-message.php">Chairman Message</a></li>
-        <li><a href="./principal-message.php">Principal Message</a></li>
+        <li><a href="about.php">About School</a></li>
+        <li><a href="about-school.php">About GSSS M/garh</a></li>
+        <li><a href="chairman-message.php">Chairman Message</a></li>
+        <li><a href="principal-message.php">Principal Message</a></li>
+        <li><a href="management-committee.php">Management Committee</a></li>
+        <li><a href="school-at-glance.php">School at a Glance</a></li>
+        <li><a href="achievements.php">Achievements</a></li>
       </ul>
     </li>
-
-    <li class="has-dropdown">
+<li class="has-dropdown">
       <a href="#">Academics ▾</a>
       <ul class="dropdown">
-        <li><a href="./academics.php">Academics</a></li>
-        <li><a href="./curriculum.php">Curriculum</a></li>
-        <li><a href="./academic-calendar.php">Academic Calendar</a></li>
-        <li><a href="./exam-assessment.php">Exam & Assessment</a></li>
-        <li><a href="./syllabus.php">Syllabus</a></li>
-        <li><a href="./teaching-methodology.php">Teaching Methodology</a></li>
+        <li><a href="academics.php">Academics</a></li>
+        <li><a href="curriculum.php">Curriculum</a></li>
+        <li><a href="syllabus.php">Syllabus</a></li>
+        <li><a href="teaching-methodology.php">Teaching Methodology</a></li>
+        <li><a href="academic-calendar.php">Academic Calendar</a></li>
+        <li><a href="exam-assessment.php">Exam & Assessment</a></li>
+        <li><a href="exam-dates-results.php">Exam Dates & Results</a></li>
+        <li><a href="exam-timetable-downloads.php">Exam Timetable</a></li>
       </ul>
     </li>
 
     <li class="has-dropdown">
       <a href="#">Admission ▾</a>
       <ul class="dropdown">
-        <li><a href="./admissions.php">General Information</a></li>
-        <li><a href="./class-wise-fee-structure.php">Fee Structure</a></li>
-        <li><a href="./downloads-admission-form.php">Prospectus</a></li>
-        <li><a href="./admission-process.php">Online Admission</a></li>
+        <li><a href="admission.php">Online Admission</a></li>
+        <li><a href="fee-details.php">Fee Details</a></li>
+        <li><a href="payment-methods.php">Payment Methods</a></li>
+        <li><a href="admission-process.php">Admission Process</a></li>
+        <li><a href="books_uniform.php">Books & Uniform</a></li>
       </ul>
     </li>
 
-    <li class="has-dropdown">
+ <li class="has-dropdown">
       <a href="#">Faculty ▾</a>
       <ul class="dropdown">
-        <li><a href="./teaching-staff.php">Teaching Staff</a></li>
-        <li><a href="./non-teaching-staff.php">Non-Teaching Staff</a></li>
+        <li><a href="teaching-staff.php">Teaching Staff</a></li>
+        <li><a href="non-teaching-staff.php">Non-Teaching Staff</a></li>
+        <li><a href="staff.php">All Staff</a></li>
       </ul>
     </li>
 
     <li class="has-dropdown">
       <a href="#">Facilities ▾</a>
       <ul class="dropdown">
-        <li><a href="./smart-classrooms.php">Smart Classes</a></li>
-        <li><a href="./library.php">Library</a></li>
-        <li><a href="./science-labs.php">Science Labs</a></li>
-        <li><a href="./computer-lab.php">Computer Lab</a></li>
-        <li><a href="./transport-hostel.php">Transport Facility</a></li>
-        <li><a href="./sports-facilities.php">Sports Facilities</a></li>
-        <li><a href="./cultural-activities.php">Cultural Activities</a></li>
+        <li><a href="facilities.php">Overview</a></li>
+        <li><a href="science-labs.php">Science Labs</a></li>
+        <li><a href="computer-lab.php">Computer Lab</a></li>
+        <li><a href="library.php">Library</a></li>
+        <li><a href="smart-classrooms.php">Smart Classrooms</a></li>
+        <li><a href="transport-hostel.php">Transport & Hostel</a></li>
+        <li><a href="sports-facilities.php">Sports Facilities</a></li>
       </ul>
     </li>
 
     <li class="has-dropdown">
       <a href="#">Activities ▾</a>
       <ul class="dropdown">
-        <li><a href="./co-curricular.php">Co-Curricular</a></li>
-        <li><a href="./competitions.php">Competitions</a></li>
-        <li><a href="./clubs.php">Clubs</a></li>
-        <li><a href="./sports-day.php">Sports Day</a></li>
-        <li><a href="./annual-function.php">Annual Function</a></li>
-        <li><a href="./achievements.php">Achievements</a></li>
+        <li><a href="annual-function.php">Annual Function</a></li>
+        <li><a href="co-curricular.php">Co-Curricular</a></li>
+        <li><a href="cultural-activities.php">Cultural Activities</a></li>
+        <li><a href="clubs.php">Clubs</a></li>
+        <li><a href="competitions.php">Competitions</a></li>
+        <li><a href="sports-day.php">Sports Day</a></li>
       </ul>
     </li>
 
     <li class="has-dropdown">
       <a href="#">Downloads ▾</a>
       <ul class="dropdown">
-        <li><a href="./downloads.php">General Downloads</a></li>
-        <li><a href="./downloads-syllabus.php">Syllabus Downloads</a></li>
-        <li><a href="./transfer-certificate-downloads.php">Transfer Certificate</a></li>
-        <li><a href="./exam-timetable-downloads.php">Exam Timetable</a></li>
-        <li><a href="./form-download.php">Forms</a></li>
+        <li><a href="downloads.php">All Downloads</a></li>
+        <li><a href="downloads-admission-form.php">Admission Form</a></li>
+        <li><a href="downloads-syllabus.php">Syllabus</a></li>
+        <li><a href="form-download.php">Other Forms</a></li>
+        <li><a href="fee-structure-downloads.php">Fee Structure</a></li>
+        <li><a href="transfer-certificate-downloads.php">Transfer Certificate</a></li>
       </ul>
     </li>
 
-    <li><a href="./news-notices.php">News & Notices</a></li>
-    <li><a href="./school-notices.php">School Notices</a></li>
-    <li><a href="./circulars.php">Circulars</a></li>
-    <li><a href="./holiday-list.php">Holiday List</a></li>
-    <li><a href="./payment-methods.php">Payment Methods</a></li>
-    <li><a href="./photos.php">Photos</a></li>
-    <li><a href="./videos.php">Videos</a></li>
-    <li><a href="./contact.php">Contact Us</a></li>
+    <li class="has-dropdown">
+      <a href="#">Media ▾</a>
+      <ul class="dropdown">
+        <li><a href="photos.php">Photos</a></li>
+        <li><a href="videos.php">Videos</a></li>
+      </ul>
+    </li>
+
+    <li class="has-dropdown">
+      <a href="#">Notices & Circulars ▾</a>
+      <ul class="dropdown">
+        <li><a href="news-notices.php">News & Notices</a></li>
+        <li><a href="school-notices.php">School Notices</a></li>
+        <li><a href="circulars.php">Circulars</a></li>
+        <li><a href="holiday-list.php">Holiday List</a></li>
+        <li><a href="news_list.php">Notices</a></li>
+        <li><a href="blog_list.php">Blogs</a></li>
+      </ul>
+    </li>
+
+
+
+<?php $pageCats = getAll($con, "SELECT * FROM Pages_Category "); //print_r($facilities) ?>
+
+<?php foreach ($pageCats as $pageCat): ?>
+
+<?php $pages = getAll($con, "SELECT * FROM Pages WHERE Pages_Category_Id = {$pageCat['Id']}"); //print_r($facilities) ?>
+
+
+
+
+
+    <li class="has-dropdown">
+      <a href="#"><?php echo htmlspecialchars($pageCat['Name'] ?? 'No name'); ?> ▾</a>
+      <ul class="dropdown">
+        <?php foreach ($pages as $page): ?>
+
+<li>  <a href="page.php?id=<?php echo($page['Id'] ?? 'No name'); ?>"><?php echo htmlspecialchars($page['Name'] ?? 'No name'); ?></a> </li>
+    <?php endforeach; ?>
+
+
+      </ul>
+    </li>
+
+<?php endforeach; ?>
+
+
+
+
+
   </ul>
+  
 </nav>
 
 
@@ -186,11 +260,13 @@
   <li>About Us</li>
   <div class="navSecBox">
     <a href="about.php"><ul class="navSec"><li>About School</li></ul></a>
-    <a href="about-school.php"><ul class="navSec"><li>About RPS M/garh</li></ul></a>
+    <a href="about-school.php"><ul class="navSec"><li>About GSSS M/garh</li></ul></a>
     <a href="chairman-message.php"><ul class="navSec"><li>Chairman Message</li></ul></a>
     <a href="principal-message.php"><ul class="navSec"><li>Principal Message</li></ul></a>
     <a href="management-committee.php"><ul class="navSec"><li>Management Committee</li></ul></a>
     <a href="school-at-glance.php"><ul class="navSec"><li>School at a Glance</li></ul></a>
+    <a href="achievements.php"><ul class="navSec"><li>Achievements </li></ul></a>
+
   </div>
 </ul>
 
@@ -206,7 +282,23 @@
     <a href="exam-dates-results.php"><ul class="navSec"><li>Exam Dates & Results</li></ul></a>
     <a href="exam-timetable-downloads.php"><ul class="navSec"><li>Exam Timetable</li></ul></a>
   </div>
-</ul>
+</ul> 
+
+<ul class="navSec">
+  <li>Addmission</li>
+  <div class="navSecBox">
+    <a href="admission.php"><ul class="navSec"><li>Online Addmission</li></ul></a>
+    <a href="fee-details.php"><ul class="navSec"><li>fee details </li></ul></a>
+    <a href="payment-methods.php"><ul class="navSec"><li>payment methods </li></ul></a>
+    <a href="admission-process.php"><ul class="navSec"><li>admission process </li></ul></a>
+    <a href="books_uniform.php"><ul class="navSec"><li>books uniform </li></ul></a>
+  </div>
+</ul> 
+
+
+
+
+
 
 <ul class="navSec">
   <li>Faculty</li>

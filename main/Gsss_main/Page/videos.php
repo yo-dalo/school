@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Videos - Hindu Senior Secondary School</title>
+  <title>Videos - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
 
@@ -27,7 +27,7 @@
       <h1>Video Gallery</h1>
       <div class="about-content">
         <p>
-          Relive the vibrant moments at <span class="highlight">Hindu Senior Secondary School</span> through our video gallery. This section features videos from our Annual Day, educational tours, and other significant school events, showcasing the talents and experiences of our students.
+          Relive the vibrant moments at <span class="highlight">GSSS Senior Secondary School</span> through our video gallery. This section features videos from our Annual Day, educational tours, and other significant school events, showcasing the talents and experiences of our students.
         </p>
 
         <h3>Annual Day</h3>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exam Timetable Downloads - Hindu Senior Secondary School</title>
+  <title>Exam Timetable Downloads - GSSS Senior Secondary School</title>
       <link rel="stylesheet" href="../css/utility/main-utility.css">   <link rel="stylesheet" href="../css/header/nav.css">  <link rel="stylesheet" href="../css/header/navBar.css">   <link rel="stylesheet" href="../css/header/mainNav2.css">   <link rel="stylesheet" href="../css/footer/footer.css">
 
     <link rel="stylesheet" href="../css/utility/page-utility.css">
@@ -30,7 +30,7 @@
       <h1>Exam Timetable Downloads</h1>
       <div class="about-content">
         <p>
-          Download the examination timetables for <span class="highlight">Hindu Senior Secondary School</span> for the academic year [Insert Year, e.g., 2025-26]. These schedules cover periodic tests, mid-term exams, and annual examinations for all classes.
+          Download the examination timetables for <span class="highlight">GSSS Senior Secondary School</span> for the academic year [Insert Year, e.g., 2025-26]. These schedules cover periodic tests, mid-term exams, and annual examinations for all classes.
         </p>
 
         <table>

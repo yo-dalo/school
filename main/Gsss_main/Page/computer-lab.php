@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Computer Lab - Hindu Senior Secondary School</title>
+  <title>Computer Lab - GSSS Senior Secondary School</title>
   
       <link rel="stylesheet" href="../css/utility/main-utility.css">
   <link rel="stylesheet" href="../css/header/nav.css">
@@ -32,7 +32,7 @@
       <h1>Computer Lab</h1>
       <div class="about-content">
         <p>
-          The computer lab at <span class="highlight">Hindu Senior Secondary School</span> is a state-of-the-art facility designed to equip students with essential digital skills. It supports our curriculum in Computer Science and Information Technology, preparing students for a technology-driven world.
+          The computer lab at <span class="highlight">GSSS Senior Secondary School</span> is a state-of-the-art facility designed to equip students with essential digital skills. It supports our curriculum in Computer Science and Information Technology, preparing students for a technology-driven world.
         </p>
 
         <p>

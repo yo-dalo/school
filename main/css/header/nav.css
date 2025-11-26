@@ -1,0 +1,765 @@
+.page_1 .nav_top {
+width: 100%;
+height: 12vw;
+background: #BFB285;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(\'/img/17072448468181.png\');
+background-position: bottom;
+background-size: cover;
+}
+
+
+
+
+.nav_top .left {
+
+height: 100%;
+width: 50%;
+display: flex;
+
+padding: 1vw;
+column-gap: 1vw;
+
+flex-wrap: wrap;
+
+align-items: flex-start;
+
+justify-content: center;
+
+
+
+
+}
+
+
+
+
+.nav_top .left .box {
+min-width: 5vw;
+width: 14vw;
+height: 4vw;
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+border-radius: 50px;
+padding: 0vw 1vw;
+gap: 1vw;
+background: #5D553A;
+border: .1vw solid white;
+color: #FFFFFF;
+}
+
+
+
+
+.nav_top .left .box .box_img {
+
+height: 100%;
+
+min-width: 5vw;
+
+padding: 0.4vw 0;
+
+}
+
+
+
+
+.nav_top .left .box .box_img img {
+
+border-radius: 50px;
+object-fit: contain;
+
+
+
+}
+
+
+
+
+.nav_top .left .box .box_info {
+
+height: 100%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+flex-direction: column;
+
+line-height: 1;
+
+
+
+
+}
+
+
+
+
+.nav_top .left .box .box_info h2 {
+font-size: 1.3vw;
+}
+
+
+
+
+.nav_top .left .box .box_info p {
+font-size: 1.2vw;
+}
+
+
+
+
+.nav_top .right {
+
+width: 50%;
+
+height: 100%;
+
+padding: 1vw;
+
+display: flex;
+
+flex-direction: column;
+
+padding: 1vw 8vw;
+
+
+
+
+text-align: right;
+
+
+
+
+}
+
+
+
+
+.nav_top .right h3 {
+text-align: right;
+color: #535353F5;
+font-size: 1.5vw;
+}
+
+
+
+
+.nav_top .right h3 span {
+
+color: var(--yo_bg_color_3);
+
+}
+
+
+
+
+.nav_top .right .icon {
+
+margin-top: 1vw;
+
+width: 100%;
+
+display: flex;
+
+gap: 1vw;
+
+align-items: center;
+
+justify-content: flex-end;
+
+}
+
+
+
+
+.nav_top .right .icon .icon_box {
+width: 3vw;
+height: 3vw;
+border: 0.2vw solid black;
+border-radius: 3px;
+}
+
+
+
+
+.nav_top .right .icon .icon_box img {
+
+object-fit: contain;
+
+transform: scale(0.8);
+
+
+
+
+object-position: center;
+
+}
+
+
+
+
+.page_1 .nav_bottom {
+width: 100%;
+height: 13vw;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+.page_1 .nav_bottom img {
+object-fit: contain;
+transform: scale(0.8);
+}
+
+
+
+
+.page_1 .nav_bottom .left {
+
+width: 50%;
+
+height: 100%;
+
+}
+
+
+
+
+.page_1 .nav_bottom .left .left_img_box {
+
+height: 100%;
+
+width: 100%;
+
+}
+
+
+
+
+.page_1 .nav_bottom .left .left_img_box img {
+object-position: center;
+}
+
+
+
+
+.page_1 .nav_bottom .right {
+
+width: 50%;
+
+height: 100%;
+
+}
+
+
+
+
+.page_1 .nav_bottom .right .right_img_box {
+
+width: 90%;
+
+height: 100%;
+
+
+
+
+}
+
+
+
+
+.page_1 .main_nav {
+
+width: 100%;
+
+height: 6vw;
+
+background: var(--yo_color);
+
+;
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-evenly;
+
+}
+
+
+
+
+.main_nav_for_mobail {
+
+/*  */
+
+display: none;
+
+}
+
+
+
+
+.page_1 .main_nav>div>a {
+
+color: #FFFFFF;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+
+
+
+.page_1 .nav_top {
+
+height: 65vw;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+flex-direction: column;
+
+}
+
+
+
+
+.nav_top .left {
+
+height: 100%;
+
+width: 100%;
+
+display: flex;
+
+padding: 1vw;
+
+column-gap: 1vw;
+
+flex-wrap: wrap;
+
+align-items: flex-start;
+
+justify-content: center;
+
+
+
+
+}
+
+
+
+
+.nav_top .left .box {
+
+
+
+
+min-width: 35vw;
+
+/*  */
+
+height: 13vw;
+
+/*  */
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-around;
+
+border-radius: 50px;
+
+padding: 0vw 2vw;
+
+gap: 2vw;
+
+background: #5D553A;
+
+border: 0.5vw solid white;
+
+/*  */
+
+color: #FFFFFF;
+
+
+
+
+}
+
+
+
+
+.nav_top .left .box .box_img {
+
+height: 10vw;
+
+min-width: 10vw;
+
+padding: 0.4vw 0;
+
+}
+
+
+
+
+.nav_top .left .box .box_info h2 {
+
+font-size: 4.5vw;
+
+/*  */
+
+
+
+
+}
+
+
+
+
+.nav_top .left .box .box_info p {
+
+font-size: 4vw;
+
+
+
+
+}
+
+
+
+
+.nav_top .right {
+
+width: 100%;
+
+height: 100%;
+
+padding: 1vw;
+
+display: flex;
+
+flex-direction: column;
+
+padding: 1vw 3vw;
+
+text-align: right;
+
+
+
+
+}
+
+
+
+
+.nav_top .right h3 {
+
+text-align: right;
+
+color: #535353F5;
+
+font-size: 4vw;
+
+/*  */
+
+font-weight: 500;
+
+
+
+
+}
+
+
+
+
+.nav_top .right .icon {
+
+margin-top: 1vw;
+
+width: 100%;
+
+display: flex;
+
+gap: 1vw;
+
+align-items: center;
+
+justify-content: flex-end;
+
+}
+
+
+
+
+.nav_top .right .icon .icon_box {
+
+width: 10vw;
+
+height: 10vw;
+
+}
+
+
+
+
+/*  */
+
+
+
+
+.page_1 .nav_bottom {
+
+width: 100%;
+
+height: 163vw;
+
+/*  */
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+flex-direction: column;
+
+padding: 7vw;
+
+}
+
+
+
+
+.page_1 .nav_bottom .left {
+
+width: 100%;
+
+height: 100%;
+
+}
+
+
+
+
+.page_1 .nav_bottom .right {
+
+width: 100%;
+
+height: 100%;
+
+}
+
+
+
+
+.page_1 .nav_bottom .right .right_img_box {
+
+width: 90%;
+
+height: 100%;
+
+
+
+
+}
+
+
+
+
+/* main nav */
+
+.page_1 .main_nav {
+
+display: none;
+
+}
+
+
+
+
+.main_nav_for_mobail {
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+height: 10vw;
+
+background: var(--yo_color);
+
+justify-content: flex-end;
+
+color: #FFFFFF;
+
+padding: 0 5vw;
+
+
+
+
+/*  */
+
+
+
+
+}
+
+
+
+
+/* /* /* /* /*  / /  */
+
+
+
+
+
+
+}
+
+
+
+
+/* &_&&__ */
+
+
+
+
+@media screen and (max-height: 450px) {
+
+.overlay a {
+
+font-size: 20px
+}
+
+
+
+
+.overlay .closebtn {
+
+font-size: 40px;
+
+top: 15px;
+
+right: 35px;
+
+}
+
+}
+
+
+
+
+.pagination {
+
+width: 100%;
+
+display: flex;
+
+justify-content: center;
+
+gap: 2vw;
+
+}
+
+
+
+
+.pagination a {
+
+padding: 0.6vw 1vw;
+
+display: inline-block;
+
+text-decoration: none;
+
+color: #000;
+
+background-color: #f2f2f2;
+
+border: 1px solid #ddd;
+
+border-radius: 4px;
+
+margin: 0 4px;
+
+}
+
+
+
+
+.pagination a:hover {
+
+background-color: #ddd;
+
+}
+
+
+
+
+.pagination a.active {
+
+background-color: #4caf50;
+
+color: white;
+
+}
+
+
+
+
+
+.top_box {
+
+
+
+width: 100vw;
+
+height: 8vh;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+background: #7B7B7B;
+
+}
+
+
+
+
+.top_box h1 {
+
+
+
+font-size: 1.5em;
+
+}

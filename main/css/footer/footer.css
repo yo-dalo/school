@@ -1,0 +1,168 @@
+
+.main-footer {
+  background-color: #194d3c;
+  color: #fff;
+  font-family: var(--yo_font);
+  padding-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  min-width: 250px;
+}
+
+.main-footer  .footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #f0c040;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-column p {
+  line-height: 1.6;
+  font-size: 1vw;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: var(--yo_bg_color_2);
+  font-weight: 600;
+}
+
+.footer-bottom {
+  background-color: #133c2d;
+  padding: 15px 20px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.footer-bottom-text {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dev-credit .dev-name {
+  color: var(--yo_bg_color_2);
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+.main-footer {
+  background-color: #194d3c;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  min-width: 250px;
+}
+
+.main-footer  .footer-column h4 {
+  font-size: 22px;
+  
+}
+
+.footer-column p {
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #f0c040;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  background-color: #133c2d;
+  padding: 15px 20px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.footer-bottom-text {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dev-credit .dev-name {
+  color: #f0c040;
+  font-weight: 600;
+}
+
+}

@@ -1,0 +1,8 @@
+  [{
+      "status": "Active",
+      "value": "ACTIVE"
+    },
+    {
+      "status": "Inactive",
+      "value": "INACTIVE"
+   }]

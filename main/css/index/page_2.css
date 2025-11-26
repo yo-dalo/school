@@ -1,0 +1,331 @@
+.page_2 {
+  width: 100%;
+  min-height: 75vh;
+}
+
+.page_2 .box_Y {
+  width: 100%;
+  /*min-height: 50vw;*/
+  background-image: url(http://0.0.0.0:8080/School_v14/School_main/img/student/student_3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 5vw 2vw;
+  
+}
+
+.box_Y .admission-open{
+    backdrop-filter: blur(10px);
+    background:linear-gradient(135deg,#F8FAFCDE,#E6FFFADE);
+}
+
+
+
+
+
+.page_2 .box_Y .box_y_info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 12vw;
+  gap: 2.3vw;
+  display: none !important;
+
+
+}
+
+
+
+
+
+.page_2 .box_Y .box_y_info p {
+  width: 70%;
+  font-size: 1.2em;
+  text-align: justify;
+  line-height: 1.4;
+  padding: 1vw;
+  backdrop-filter: blur(10px);
+  background: #838383AB;
+  color: #000;
+}
+
+.page_2 .box_Y .box_y_info button {
+  padding: 1vw 3vw;
+  font-size: 1.5em;
+  word-spacing: 0.5vw;
+  background: var(--yo_bg_color_2);
+  border: none;
+}
+
+.page_2 .box_Z{
+  width: 100%;
+  height: 30vw;
+  display: flex!important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.page_2 .box_Z .left{
+ width: 65vw;
+ height: 100%;
+}
+
+.page_2 .box_Z .left .left_info{
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ height: 30%;
+ gap: 1vw;
+}
+
+
+
+.page_2 .box_Z .left .left_info p{
+  text-align: justify;
+  padding: 0 3vw;
+    line-height: 1.7;
+  font-size: 1.1em;
+
+}
+
+.page_2 .box_Z .left .scoller_2{
+ width: 100%;
+ flex: 1;
+ align-items: center;
+ height: 70%;
+ background: #194d3c;
+ background-position-x: left,bottom;
+ background-size: cover;
+ background-position: center;
+ overflow-y: scroll;
+
+ background-repeat: no-repeat;
+}
+
+.page_2 .box_Z .left .scoller_2 ul{
+  padding: 2vw;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.page_2 .box_Z .left .scoller_2 ul li{
+ list-style: none;
+}
+
+
+.page_2 .box_Z .left .scoller_2 ul li a{
+  color: #3832EE;
+  color: #FFFFFF;
+
+  text-decoration: underline;
+  text-decoration-color: #0E0DFF;
+}
+
+
+
+
+.page_2 .box_Z .right{
+  width: 35vw;
+  height: 100%;
+}
+
+.page_2 .box_Z .right img{
+  object-position: right;
+
+}
+
+
+@media (max-width: 600px) {
+  
+  .page_2 .box_Y {
+    margin: 20vw 0;
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(http://0.0.0.0:8080/School_v14/School_main/img/student/student_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: #FFFFFF;
+    padding: 15vw 3vw;
+
+  }
+  
+  .box_Y .admission-open{
+    backdrop-filter: blur(0px);
+    background:linear-gradient(135deg,#F8FAFCDE,#E6FFFADE);
+}
+
+  
+  .box_Y .admission-open p{
+   font-size: 20px !important;
+}
+
+
+
+  
+  
+  .page_2 .box_Y .box_y_info {
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3vw;
+    gap: 2.3vw;
+    color: #000 !important;
+  display: none !important;
+
+  }
+  
+   
+  
+  
+  
+  .page_2 .box_Y .box_y_info p {
+    width: 100%;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.4;
+    backdrop-filter: blur(0px) !important;
+    color: #000 !important;
+   background: whitesmoke;
+
+  }
+  
+  
+    .page_2 .box_Y .box_y_info h1 {
+      color: #F3ED3C;
+  }
+
+  
+  
+  
+  .page_2 .box_Y .box_y_info button {
+    padding: 1.5vw 3vw;
+    font-size: 1.5em;
+    word-spacing: 0.5vw;
+    background: #CF9CFF;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+  }
+
+
+/* __________________________________ */
+.page_2 .box_Z {
+  width: 100%;
+  min-height: 150vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.page_2 .box_Z .left {
+  width: 100vw;/*  */
+  background: #FAFAFA;
+  padding: 2vw 0;
+  max-height: 100vh;
+}
+
+.page_2 .box_Z .left .left_info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  height: 25vh;
+  gap: 1vw;
+  padding: 0 3vw;
+}
+
+
+.page_2 .box_Z .left .left_info h1 {
+  font-size: 1.6em;
+  line-height: 2;
+  padding: 0;
+
+}
+
+
+.page_2 .box_Z .left .left_info p {
+  text-align: justify;
+  padding: 0;
+  line-height: 1.7;
+  font-size: 1em;
+
+}
+
+.page_2 .box_Z .left .scoller_2 {
+  width: 100%;
+  flex: 1;
+  align-items: center;
+  height: 75%;
+  background-image: linear-gradient(45deg, #4E4B4EF0, var(--yo_color));
+  background-position-x: left, right;
+  background-size: cover;
+  background-position: center;
+background: #194d3c;
+  background-repeat: no-repeat;
+  padding:  3vw 3vw; 
+  overflow-y: scroll;
+}
+
+
+
+.page_2 .box_Z .left .scoller_2 ul {
+  gap: 4vw;
+}
+
+
+
+.page_2 .box_Z .right {
+  width: 100vw;
+  height: 40%;/*  */
+}
+.page_2 .box_Z .right img{
+  object-fit: fill;/*  */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 2560px) {
+
+  .box_Y .admission-open p{
+   font-size: 25px !important;
+   
+   
+   
+   
+}
+
+}

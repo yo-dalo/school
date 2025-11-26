@@ -1,0 +1,59 @@
+section {
+    width: 100%;
+    height: auto;
+    padding: 2vw 2vw;
+  
+  }
+  
+  a{
+    color:#000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .section_box {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    font-family: var(--yo_font);
+    background: #F0F0F0;
+    padding: 5vw 5vw;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: crimson;
+  }
+  
+  .section_p {
+    text-align: justify;
+    font-family: var(--yo_font);
+    line-height: 1.7;
+    color: #5F36A6;
+  }
+
+
+
+
+
+@media (max-width: 600px) {
+  ._post h3 {
+    text-align: center;
+  }
+  
+  ._post {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    text-align: justify;
+    background: #EDE9FF;
+    padding: 5vw;
+  }
+  
+  
+}
+
+
+

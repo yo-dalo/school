@@ -1,0 +1,69 @@
+
+/* Main Container */
+.mainNav2 {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #26315f;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+
+/* Menu List Item */
+.mainNav2 .navSec {
+  list-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mainNav2 .navSec li {
+  padding: 14px 20px;
+  color: #f8f8f8;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.mainNav2 .navSec li:hover {
+  background-color: #1d2551;
+}
+
+/* Dropdown Arrow */
+.mainNav2 .navSec li::after {
+  content: "▾";
+  position: absolute;
+  right: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when open */
+.mainNav2 .navSec.open>li::after {
+  transform: rotate(180deg) !important;
+}
+
+/* Submenu box */
+.mainNav2 .navSecBox {
+  background-color: #1d2551;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease !important;
+}
+
+/* Show submenu */
+.mainNav2 .navSecBox.open {
+  max-height: 1000px;
+}
+
+/* Submenu items */
+.mainNav2 .navSecBox .navSec li {
+  padding: 12px 30px;
+  font-size: 15px;
+  color: #d2d6f2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mainNav2 .navSecBox .navSec li:hover {
+  background-color: #151c3a;
+}

@@ -40,7 +40,7 @@
 
         </div>
         <div class="right">
-          <h3>Satnali Road, Mahendergarh(HR)</h3>
+          <h3>Bucholi Road  Mahendergarh(HR)</h3>
           <h3>Call Us: <span> +91-94161-50201</span></h3>
           <h3>Admission Enqiury: <span>+91-91389-75373</span></h3>
           <div class="icon">

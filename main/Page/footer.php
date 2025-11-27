@@ -4,7 +4,7 @@
     <!-- Quick Contact -->
     <div class="footer-column">
       <h4>Quick Contact</h4>
-      <p>NH-52, Hisar to Rajgarh Road,<br>Chaudharywas, Hisar (Haryana)</p>
+      <p>Mahendergarh, PIN-123029,<br>Bucholi Road ,Mahendergarh(Haryana)</p>
       <p>📞 +91-88138-70220, 21<br>📧 .....publicschool@gmail.com</p>
       <p><span class="highlight">School Timing</span><br>Mon - Sat: 8:00AM - 3:00PM</p>
     </div>
@@ -44,7 +44,7 @@
   <!-- Bottom Footer Bar -->
   <div class="footer-bottom">
     <div class="footer-bottom-text">
-      <span>© 2021 © School Public School, Chaudharywas, Hisar | All Rights Reserved</span>
+      <span>© 2021 © Yaduvanshi Degree College | All Rights Reserved</span>
       <span class="dev-credit">Website Designed & Developed by <span class="dev-name">Adarsh Khichi</span></span>
     </div>
   </div>

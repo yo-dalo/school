@@ -1,6 +1,5 @@
 <?php 
 
-require './conn.php';
 
 function getAll($conn, $sql) {
     $result = mysqli_query($conn, $sql);

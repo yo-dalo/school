@@ -19,7 +19,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT Id, Student_Name, Index_No, Image, Marks_Percentage, Is_Active FROM Result_12th $filters ORDER BY Index_No ASC $pagination";
+    $sql = "SELECT Id, Student_Name, Index_No, Image, Marks_Percentage, Is_Active FROM result_12th $filters ORDER BY Index_No ASC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -28,7 +28,7 @@ function getAll($conn) {
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM Result_12th " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM result_12th " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 

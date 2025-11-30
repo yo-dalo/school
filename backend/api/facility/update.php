@@ -10,7 +10,7 @@ function update($conn) {
     validateRequestMethod('POST');
     
     $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-    if (!$id) sendResponse(400, false, "Invalid Facility ID");
+    if (!$id) sendResponse(400, false, "Invalid facility ID");
 
     $index_no = isset($_POST['Index_No']) ? intval($_POST['Index_No']) : null;
     $name = safe($conn, $_POST['Name'] ?? '');
@@ -21,7 +21,7 @@ function update($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     } else {
@@ -33,14 +33,14 @@ function update($conn) {
 
 
 
-    $sql = "UPDATE Facility SET Index_No = ?, Name = ?, Title = ?, Description = ?, Image = ?, Is_Active = ? WHERE Id = ?";
+    $sql = "UPDATE facility SET Index_No = ?, Name = ?, Title = ?, Description = ?, Image = ?, Is_Active = ? WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'isssssi',
         $index_no, $name, $title, $description, $image_path, $is_active, $id
     );
     
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(201, true, 'Facility updated', ['id' => $id]);
+        sendResponse(201, true, 'facility updated', ['id' => $id]);
     } else {
         sendResponse(500, false, 'Failed to update facility');
     }

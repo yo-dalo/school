@@ -16,7 +16,7 @@ function update($conn) {
     $read_more_url = safe($conn, $_POST['Read_More_Url'] ?? '');
     $is_active = safe($conn, $_POST['Is_Active'] ?? 'active');
 
-    $sql = "UPDATE School_Welcome_Message SET Title = ?, Message = ?, Read_More_Url = ?, Is_Active = ? WHERE Id = ?";
+    $sql = "UPDATE school_welcome_message SET Title = ?, Message = ?, Read_More_Url = ?, Is_Active = ? WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'ssssi',
         $title, $message, $read_more_url, $is_active, $id

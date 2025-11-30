@@ -21,14 +21,14 @@ function update($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }else {
         $image_path = safe($conn, $_POST['Image'] ?? '');
     }
 
-    $sql = "UPDATE Achievements SET Index_No = ?, Name = ?, Title = ?, Description = ?, Image = ?, Is_Active = ? WHERE Id = ?";
+    $sql = "UPDATE achievements SET Index_No = ?, Name = ?, Title = ?, Description = ?, Image = ?, Is_Active = ? WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'isssssi',
         $index_no, $name, $title, $description, $image_path, $is_active, $id

@@ -23,12 +23,12 @@ function create($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }
 
-    $sql = "INSERT INTO Result_12th (Student_Name, Index_No, Image, Marks_Percentage, Description, Is_Active) VALUES (?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO result_12th (Student_Name, Index_No, Image, Marks_Percentage, Description, Is_Active) VALUES (?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'sissss',
         $student_name, $index_no, $image_path, $marks_percentage, $description, $is_active

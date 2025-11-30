@@ -18,7 +18,7 @@ function update($conn) {
     $name = safe($conn, $data['Name'] ?? '');
     $is_active = safe($conn, $data['Is_Active'] ?? 'active');
 
-    $sql = "UPDATE Useful_Link SET Index_No = ?, Url = ?, Name = ?, Is_Active = ? WHERE Id = ?";
+    $sql = "UPDATE useful_link SET Index_No = ?, Url = ?, Name = ?, Is_Active = ? WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'isssi',
         $index_no, $url, $name, $is_active, $id

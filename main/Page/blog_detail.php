@@ -71,7 +71,7 @@ require("./header.php");
                $id=$_GET['id'];
                ?>
                
-    <?php $news = getSingle($con, "SELECT * FROM Blog WHERE Id = '$id'"); //print_r($news) ?>
+    <?php $news = getSingle($con, "SELECT * FROM blog  WHERE Id = '$id'"); //print_r($news) ?>
     <div class="news-name"><?php echo htmlspecialchars($news['Name'] ?? 'No name'); ?> </div>
     <div class="news-date">Published on: <?php echo htmlspecialchars($news['Date'] ?? 'No name'); ?></div>
     <div class="news-title"><?php echo htmlspecialchars($news['Title'] ?? 'No title'); ?></div>

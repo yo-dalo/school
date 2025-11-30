@@ -26,7 +26,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT Id, Name, Father_Name, Mother_Name, Email, Phone, Class, DOB, City, State, Gender, Admission_Date, More_Info, Is_Active FROM Admission $filters ORDER BY Id DESC $pagination";
+    $sql = "SELECT Id, Name, Father_Name, Mother_Name, Email, Phone, Class, DOB, City, State, Gender, admission_Date, More_Info, Is_Active FROM admission $filters ORDER BY Id DESC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -34,11 +34,11 @@ function getAll($conn) {
         $rows[] = $row;
     }
 
-    $count_sql = "SELECT COUNT(*) as total FROM Admission " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM admission " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Admissions fetched', [
+    sendResponse(200, true, 'admissions fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

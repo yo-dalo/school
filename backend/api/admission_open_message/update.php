@@ -21,14 +21,14 @@ function update($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }else {
         $image_path = safe($conn, $_POST['Image'] ?? '');
     }
 
-    $sql = "UPDATE Admission_Open_Message SET Title = ?, Index_No = ?, Message = ?, Image = ?, Read_More_Url = ?, Is_Active = ? WHERE Id = ?";
+    $sql = "UPDATE admission_open_message SET Title = ?, Index_No = ?, Message = ?, Image = ?, Read_More_Url = ?, Is_Active = ? WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'sisissi',
         $title, $index_no, $message, $image_path, $read_more_url, $is_active, $id

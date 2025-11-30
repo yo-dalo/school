@@ -11,7 +11,7 @@ function delete_($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
     if (!$id) sendResponse(400, false, "Invalid Admission Open Message ID");
 
-    $sql = "DELETE FROM Admission_Open_Message WHERE Id = ?";
+    $sql = "DELETE FROM admission_open_message WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'i', $id);
 

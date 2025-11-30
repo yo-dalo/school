@@ -130,13 +130,13 @@ if (count($where) > 0) {
 }
 
 // total records
-$totalResult = mysqli_query($con, "SELECT COUNT(*) AS total FROM Blog $whereSql");
+$totalResult = mysqli_query($con, "SELECT COUNT(*) AS total FROM blog  $whereSql");
 $totalRow = mysqli_fetch_assoc($totalResult);
 $totalRecords = $totalRow['total'];
 $totalPages = ceil($totalRecords / $limit);
 
 // fetch data
-$newses = getAll($con, "SELECT * FROM Blog $whereSql ORDER BY Id DESC LIMIT $startFrom, $limit");
+$newses = getAll($con, "SELECT * FROM blog  $whereSql ORDER BY Id DESC LIMIT $startFrom, $limit");
 ?>
 
   <div class="container">

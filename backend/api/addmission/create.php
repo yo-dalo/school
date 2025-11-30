@@ -20,11 +20,11 @@ function create($conn) {
     $city           = safe($conn, $data['City'] ?? '');
     $state          = safe($conn, $data['State'] ?? '');
     $gender         = safe($conn, $data['Gender'] ?? '');
-    $admission_date = safe($conn, $data['Admission_Date'] ?? '');
+    $admission_date = safe($conn, $data['admission_Date'] ?? '');
     $more_info      = safe($conn, $data['More_Info'] ?? '');
     $is_active      = safe($conn, $data['Is_Active'] ?? 'active');
 
-    $sql = "INSERT INTO Admission (Name, Father_Name, Mother_Name, Email, Phone, Class, DOB, City, State, Gender, Admission_Date, More_Info, Is_Active)
+    $sql = "INSERT INTO admission (Name, Father_Name, Mother_Name, Email, Phone, Class, DOB, City, State, Gender, admission_Date, More_Info, Is_Active)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     $stmt = mysqli_prepare($conn, $sql);
@@ -35,7 +35,7 @@ function create($conn) {
     );
 
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(200, true, 'Admission created', ['id' => mysqli_insert_id($conn)]);
+        sendResponse(200, true, 'admission created', ['id' => mysqli_insert_id($conn)]);
     } else {
         sendResponse(500, false, 'Failed to create admission');
     }

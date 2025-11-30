@@ -8,7 +8,7 @@ $user = authenticate();
 function buildFilters($conn) {
     $filters = [];
     if (!empty($_GET['pages_category_id'])) {
-        $filters[] = "Pages_Category_Id = '" . safe($conn, $_GET['pages_category_id']) . "'";
+        $filters[] = "pages_category_Id = '" . safe($conn, $_GET['pages_category_id']) . "'";
     }
     if (!empty($_GET['is_active'])) {
         $filters[] = "Is_Active = '" . safe($conn, $_GET['is_active']) . "'";
@@ -19,7 +19,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT  Id,Pages_Category_Id, Name ,Index_No, Is_Active FROM Pages $filters ORDER BY Created_At DESC $pagination";
+    $sql = "SELECT  Id,pages_category_Id, Name ,Index_No, Is_Active FROM pages $filters ORDER BY Created_At DESC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -28,11 +28,11 @@ function getAll($conn) {
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM Pages " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM pages " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Pages fetched', [
+    sendResponse(200, true, 'pages fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

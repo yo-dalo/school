@@ -22,7 +22,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT Id,Image, Name, Roll, Read_More_Url, Index_No, Is_Active FROM Messages $filters ORDER BY Index_No ASC $pagination";
+    $sql = "SELECT Id,Image, Name, Roll, Read_More_Url, Index_No, Is_Active FROM messages $filters ORDER BY Index_No ASC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -31,11 +31,11 @@ function getAll($conn) {
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM Messages " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM messages " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Messages fetched', [
+    sendResponse(200, true, 'messages fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

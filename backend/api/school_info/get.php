@@ -19,7 +19,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT Id, xperience, Students, Teachers, Awards, School_Name, Short_Name, Logo_Url, Favicon_Url, Motto, Established_Year, Address, City, State, Pin_Code, Alternate_Phone, Email, Website, Academic_Year_Start, Academic_Year_End, Board_Affiliation, Board_Affiliation_Number, Latitude, Longitude, Contact_Person_Name, Contact_Person_Position, Contact_Person_Phone, Medium_Of_Instruction, Display_Order, Is_Active FROM School_Info $filters ORDER BY Display_Order ASC $pagination";
+    $sql = "SELECT Id, xperience, Students, Teachers, Awards, School_Name, Short_Name, Logo_Url, Favicon_Url, Motto, Established_Year, Address, City, State, Pin_Code, Alternate_Phone, Email, Website, Academic_Year_Start, Academic_Year_End, Board_Affiliation, Board_Affiliation_Number, Latitude, Longitude, Contact_Person_Name, Contact_Person_Position, Contact_Person_Phone, Medium_Of_Instruction, Display_Order, Is_Active FROM school_info $filters ORDER BY Display_Order ASC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -28,7 +28,7 @@ function getAll($conn) {
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM School_Info " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM school_info " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 

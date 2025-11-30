@@ -12,13 +12,13 @@ function update($conn) {
     $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
     if (!$id) sendResponse(400, false, "Invalid Page ID");
 
-    $pages_category_id = isset($data['Pages_Category_Id']) ? intval($data['Pages_Category_Id']) : null;
+    $pages_category_id = isset($data['pages_category_Id']) ? intval($data['pages_category_Id']) : null;
     $page_data = safe($conn, $data['Page_Data'] ?? '');
     $name = safe($conn, $data['Name'] ?? '');
     $index_no = isset($_POST['Index_No']) ? intval($_POST['Index_No']) : null;
     $is_active = safe($conn, $data['Is_Active'] ?? 'active');
 
-    $sql = "UPDATE Pages SET Pages_Category_Id = ?,Name = ? , Index_No = ?, Page_Data = ?, Is_Active = ? WHERE Id = ?";
+    $sql = "UPDATE pages SET pages_category_Id = ?,Name = ? , Index_No = ?, Page_Data = ?, Is_Active = ? WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'isisi',
         $pages_category_id,$name,$index_no , $page_data, $is_active, $id

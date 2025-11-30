@@ -7,16 +7,16 @@ $user = authenticate();
 
 function getById($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
-    if (!$id) sendResponse(400, false, "Invalid Notification ID");
+    if (!$id) sendResponse(400, false, "Invalid notification ID");
 
-    $stmt = mysqli_prepare($conn, "SELECT * FROM Notification WHERE Id = ?");
+    $stmt = mysqli_prepare($conn, "SELECT * FROM notification WHERE Id = ?");
     mysqli_stmt_bind_param($stmt, 'i', $id);
     mysqli_stmt_execute($stmt);
     $result = mysqli_stmt_get_result($stmt);
     if ($row = mysqli_fetch_assoc($result)) {
-        sendResponse(200, true, "Notification found {$id_}", $row);
+        sendResponse(200, true, "notification found {$id_}", $row);
     } else {
-        sendResponse(404, false, 'Notification not found');
+        sendResponse(404, false, 'notification not found');
     }
 }
 

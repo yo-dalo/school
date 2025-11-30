@@ -7,16 +7,16 @@ $user = authenticate();
 
 function getById($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
-    if (!$id) sendResponse(400, false, "Invalid Pages Category ID");
+    if (!$id) sendResponse(400, false, "Invalid pages Category ID");
 
-    $stmt = mysqli_prepare($conn, "SELECT * FROM Pages_Category WHERE Id = ?");
+    $stmt = mysqli_prepare($conn, "SELECT * FROM pages_category WHERE Id = ?");
     mysqli_stmt_bind_param($stmt, 'i', $id);
     mysqli_stmt_execute($stmt);
     $result = mysqli_stmt_get_result($stmt);
     if ($row = mysqli_fetch_assoc($result)) {
-        sendResponse(200, true, "Pages Category found {$id_}", $row);
+        sendResponse(200, true, "pages Category found {$id_}", $row);
     } else {
-        sendResponse(404, false, 'Pages Category not found');
+        sendResponse(404, false, 'pages Category not found');
     }
 }
 

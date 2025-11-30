@@ -9,9 +9,9 @@ function delete_($conn, $id_) {
     validateRequestMethod('DELETE');
 
     $id = isset($id_) ? (int)$id_ : 0;
-    if (!$id) sendResponse(400, false, "Invalid Gallery ID");
+    if (!$id) sendResponse(400, false, "Invalid gallery ID");
 
-    $sql = "DELETE FROM Gallery WHERE Id = ?";
+    $sql = "DELETE FROM gallery WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'i', $id);
 

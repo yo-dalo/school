@@ -11,7 +11,7 @@ function delete_($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
     if (!$id) sendResponse(400, false, "Invalid Message ID");
 
-    $sql = "DELETE FROM Messages WHERE Id = ?";
+    $sql = "DELETE FROM messages WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'i', $id);
 

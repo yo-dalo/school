@@ -22,19 +22,19 @@ function create($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }
 
-    $sql = "INSERT INTO Poster (Index_No, Url, Image, Name, Is_Active) VALUES (?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO poster (Index_No, Url, Image, Name, Is_Active) VALUES (?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'issss',
         $index_no, $url, $image_path, $name, $is_active
     );
     
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(200, true, 'Poster created', ['id' => mysqli_insert_id($conn)]);
+        sendResponse(200, true, 'poster created', ['id' => mysqli_insert_id($conn)]);
     } else {
         sendResponse(500, false, 'Failed to create poster');
     }

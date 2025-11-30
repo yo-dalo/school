@@ -17,14 +17,14 @@ function create($conn) {
     $name = safe($conn, $data['Name'] ?? '');
     $is_active = safe($conn, $data['Is_Active'] ?? 'active');
 
-    $sql = "INSERT INTO Notification (Index_No, Is_Important, Title, Description, Date, Name, Is_Active) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO notification (Index_No, Is_Important, Title, Description, Date, Name, Is_Active) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'iisssss',
         $index_no, $is_important, $title, $description, $date, $name, $is_active
     );
     
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(200, true, 'Notification created', ['id' => mysqli_insert_id($conn)]);
+        sendResponse(200, true, 'notification created', ['id' => mysqli_insert_id($conn)]);
     } else {
         sendResponse(500, false, 'Failed to create notification');
     }

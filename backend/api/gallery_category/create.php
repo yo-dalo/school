@@ -13,7 +13,7 @@ function create($conn) {
     $date = safe($conn, $_POST['Date'] ?? '');
     $is_active = safe($conn, $_POST['Is_Active'] ?? 'active');
 
-    $sql = "INSERT INTO Gallery_Category (Name, Title, Index_No, Date, Is_Active) VALUES (?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO gallery_category (Name, Title, Index_No, Date, Is_Active) VALUES (?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'ssiss',
         $name, $title, $index_no, $date, $is_active

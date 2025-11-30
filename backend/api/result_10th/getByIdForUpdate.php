@@ -9,7 +9,7 @@ function getByIdForUpdate($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
     if (!$id) sendResponse(400, false, "Invalid Result ID");
 
-    $stmt = mysqli_prepare($conn, "SELECT * FROM Result_10th WHERE Id = ?");
+    $stmt = mysqli_prepare($conn, "SELECT * FROM result_10th WHERE Id = ?");
     mysqli_stmt_bind_param($stmt, 'i', $id);
     mysqli_stmt_execute($stmt);
     $result = mysqli_stmt_get_result($stmt);

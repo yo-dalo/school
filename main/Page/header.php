@@ -213,11 +213,11 @@
 
 
 
-<?php $pageCats = getAll($con, "SELECT * FROM Pages_Category "); //print_r($facilities) ?>
+<?php $pageCats = getAll($con, "SELECT * FROM pages_category"); //print_r($facilities) ?>
 
 <?php foreach ($pageCats as $pageCat): ?>
 
-<?php $pages = getAll($con, "SELECT * FROM Pages WHERE Pages_Category_Id = {$pageCat['Id']}"); //print_r($facilities) ?>
+<?php $pages = getAll($con, "SELECT * FROM pages WHERE Pages_Category_Id = {$pageCat['Id']}"); //print_r($facilities) ?>
 
 
 
@@ -323,11 +323,11 @@
 </ul>
 
 
-<?php $pageCats = getAll($con, "SELECT * FROM Pages_Category "); //print_r($facilities) ?>
+<?php $pageCats = getAll($con, "SELECT * FROM pages_category "); //print_r($facilities) ?>
 
 <?php foreach ($pageCats as $pageCat): ?>
 
-<?php $pages = getAll($con, "SELECT * FROM Pages WHERE Pages_Category_Id = {$pageCat['Id']}"); //print_r($facilities) ?>
+<?php $pages = getAll($con, "SELECT * FROM pages WHERE Pages_Category_Id = {$pageCat['Id']}"); //print_r($facilities) ?>
 
 <ul class="navSec">
   <li><?php echo htmlspecialchars($pageCat['Name'] ?? 'No name'); ?></li>

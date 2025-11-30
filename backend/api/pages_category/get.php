@@ -19,7 +19,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT * FROM Pages_Category $filters ORDER BY Index_No ASC $pagination";
+    $sql = "SELECT * FROM pages_category $filters ORDER BY Index_No ASC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -28,11 +28,11 @@ function getAll($conn) {
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM Pages_Category " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM pages_category " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Pages Categories fetched', [
+    sendResponse(200, true, 'pages Categories fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

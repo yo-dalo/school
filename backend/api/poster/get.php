@@ -23,7 +23,7 @@ function getAll($conn) {
 
     // main query
     $sql = "SELECT Id, Index_No, Url, Image, Name, Is_Active 
-            FROM Poster 
+            FROM poster 
             $filters 
             ORDER BY Index_No ASC $pagination";
     $result = mysqli_query($conn, $sql);
@@ -38,7 +38,7 @@ function getAll($conn) {
     }
 
     // total count query
-    $count_sql = "SELECT COUNT(*) as total FROM Poster $filters";
+    $count_sql = "SELECT COUNT(*) as total FROM poster $filters";
     $count_result = mysqli_query($conn, $count_sql);
 
     if (!$count_result) {
@@ -47,7 +47,7 @@ function getAll($conn) {
 
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Posters fetched', [
+    sendResponse(200, true, 'posters fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

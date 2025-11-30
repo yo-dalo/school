@@ -23,7 +23,7 @@ function create($conn) {
     
     if (mysqli_stmt_execute($stmt)) {
         
-        sendResponse(200, true, 'Pages Category created', ['id' => mysqli_insert_id($conn)]);
+        sendResponse(200, true, 'pages Category created', ['id' => mysqli_insert_id($conn)]);
     } else {
         sendResponse(500, false, 'Failed to create pages category');
     }

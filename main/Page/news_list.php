@@ -116,11 +116,11 @@ if($date !== '') {
 }
 
 // Fetch filtered records
-$query = "SELECT * FROM Notification $where ORDER BY Id DESC LIMIT $startFrom, $limit";
+$query = "SELECT * FROM notification $where ORDER BY Id DESC LIMIT $startFrom, $limit";
 $newses = getAll($con, $query);
 
 // Count total records for pagination
-$result = mysqli_query($con, "SELECT COUNT(*) AS total FROM Notification $where");
+$result = mysqli_query($con, "SELECT COUNT(*) AS total FROM notification $where");
 $row = mysqli_fetch_assoc($result);
 $totalRecords = $row['total'];
 $totalPages = ceil($totalRecords / $limit);

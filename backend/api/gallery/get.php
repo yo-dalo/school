@@ -8,7 +8,7 @@ require_once '../../utility/chackAuth.php';
 function buildFilters($conn) {
     $filters = [];
     if (!empty($_GET['gallery_category_id'])) {
-        $filters[] = "Gallery_Category_Id = '" . safe($conn, $_GET['gallery_category_id']) . "'";
+        $filters[] = "gallery_category_Id = '" . safe($conn, $_GET['gallery_category_id']) . "'";
     }
     if (!empty($_GET['is_active'])) {
         $filters[] = "Is_Active = '" . safe($conn, $_GET['is_active']) . "'";
@@ -19,7 +19,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT Id, Gallery_Category_Id, Image, Is_Active FROM Gallery $filters ORDER BY Created_At DESC $pagination";
+    $sql = "SELECT Id, gallery_category_Id, Image, Is_Active FROM Gallery $filters ORDER BY Created_At DESC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];

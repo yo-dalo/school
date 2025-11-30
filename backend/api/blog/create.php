@@ -28,14 +28,14 @@ function create($conn) {
         $image_path = $upload['fileName'];
     }
 
-    $sql = "INSERT INTO Blog (Name, Title, Description, Date, Content, Author, Image) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO blog (Name, Title, Description, Date, Content, Author, Image) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'sssssss',
         $name, $title, $description, $date, $content, $author, $image_path
     );
     
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(200, true, 'Blog created', ['id' => mysqli_insert_id($conn)]);
+        sendResponse(200, true, 'blog created', ['id' => mysqli_insert_id($conn)]);
     } else {
         sendResponse(500, false, 'Failed to create blog');
     }

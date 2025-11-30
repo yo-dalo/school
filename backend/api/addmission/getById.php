@@ -7,16 +7,16 @@ $user = authenticate();
 
 function getById($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
-    if (!$id) sendResponse(400, false, "Invalid Admission ID");
+    if (!$id) sendResponse(400, false, "Invalid admission ID");
 
-    $stmt = mysqli_prepare($conn, "SELECT * FROM Admission WHERE Id = ?");
+    $stmt = mysqli_prepare($conn, "SELECT * FROM admission WHERE Id = ?");
     mysqli_stmt_bind_param($stmt, 'i', $id);
     mysqli_stmt_execute($stmt);
     $result = mysqli_stmt_get_result($stmt);
     if ($row = mysqli_fetch_assoc($result)) {
-        sendResponse(200, true, "Admission found", $row);
+        sendResponse(200, true, "admission found", $row);
     } else {
-        sendResponse(404, false, 'Admission not found');
+        sendResponse(404, false, 'admission not found');
     }
 }
 

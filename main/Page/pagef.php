@@ -88,7 +88,7 @@ require("./header.php");
     <div class="news-title"><?php echo htmlspecialchars($page['Title'] ?? 'No title'); ?></div>
     <div class="news-title"><?php echo htmlspecialchars($page['Created_At'] ?? 'No title'); ?></div>
 
-    <div class="news-image"><img src="http://100.113.240.220:8080/x/uploads/<?php echo htmlspecialchars($page['Image']); ?>" alt="" /></div>
+    <div class="news-image"><img src="http://100.113.240.220:8080/school/backend/uploads/<?php echo htmlspecialchars($page['Image']); ?>" alt="" /></div>
 
 
 

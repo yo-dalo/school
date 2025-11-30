@@ -23,7 +23,7 @@ function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
 $sql = "SELECT Id, Image, Name, Index_No, Is_Active, Created_At, Updated_At 
-        FROM Achievements 
+        FROM achievements 
         $filters 
         ORDER BY Index_No ASC 
         $pagination"; 
@@ -36,11 +36,11 @@ $sql = "SELECT Id, Image, Name, Index_No, Is_Active, Created_At, Updated_At
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM Achievements " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM achievements " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Achievements fetched', [
+    sendResponse(200, true, 'achievements fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

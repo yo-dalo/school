@@ -11,7 +11,7 @@ function delete_($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
     if (!$id) sendResponse(400, false, "Invalid Result ID");
 
-    $sql = "DELETE FROM Result_12th WHERE Id = ?";
+    $sql = "DELETE FROM result_12th WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'i', $id);
 

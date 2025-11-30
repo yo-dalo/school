@@ -9,7 +9,7 @@ function create($conn) {
     validateRequestMethod('POST');
     $data = json_decode(file_get_contents("php://input"), true);
 
-    $pages_category_id = isset($data['Pages_Category_Id']) ? intval($data['Pages_Category_Id']) : null;
+    $pages_category_id = isset($data['pages_category_Id']) ? intval($data['pages_category_Id']) : null;
     $page_data = safe($conn, $data['Page_Data'] ?? '');
     $name = safe($conn, $data['Name'] ?? '');
     $index_no = safe($conn, $data['Index_No'] ?? '0');
@@ -17,7 +17,7 @@ function create($conn) {
 
     
 
-    $sql =  "INSERT INTO `pages` (`Name`, `Pages_Category_Id`, `Page_Data`, `Is_Active`, `Index_No`) VALUES ( ?, ?, ?,?, ?)";
+    $sql =  "INSERT INTO `pages` (`Name`, `pages_category_Id`, `Page_Data`, `Is_Active`, `Index_No`) VALUES ( ?, ?, ?,?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
      mysqli_stmt_bind_param($stmt, 'sissi',
     $name,  

@@ -25,7 +25,7 @@ try {
     }
 
     // Query user from database
-    $stmt = $conn->prepare("SELECT * FROM Admins WHERE Email = ?");
+    $stmt = $conn->prepare("SELECT * FROM admins WHERE Email = ?");
      $stmt->bind_param("s", $email);
      $stmt->execute();
 

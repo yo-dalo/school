@@ -43,7 +43,7 @@ $username = trim($data['username']);
 $password = password_hash($data['password'], PASSWORD_BCRYPT);
 
 // Check if email or username already exists
-$checkStmt = $conn->prepare("SELECT id FROM Admins WHERE Email = ? OR Username = ?");
+$checkStmt = $conn->prepare("SELECT id FROM admins WHERE Email = ? OR Username = ?");
 $checkStmt->bind_param("ss", $email, $username);
 $checkStmt->execute();
 $result = $checkStmt->get_result();
@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
 $checkStmt->close();
 
 // Insert into database
-$stmt = $conn->prepare("INSERT INTO Admins (Name, Email, Username, Password) VALUES (?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO admins (Name, Email, Username, Password) VALUES (?, ?, ?, ?)");
 $stmt->bind_param("ssss", $name, $email, $username, $password);
 
 if ($stmt->execute()) {

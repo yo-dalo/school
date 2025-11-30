@@ -344,6 +344,23 @@ INSERT INTO `pages_category` (`Id`, `Index_No`, `Name`, `Is_Active`, `Created_At
 (4, 41, 'heloo', 'active', '2025-09-15 13:16:21', '2025-09-15 13:16:21'),
 (6, 4, 'lkj', 'active', '2025-09-15 13:20:36', '2025-09-15 14:25:03');
 
+-- ---------------------------------CREATE TABLE `pages_category` (
+  `Id` int(11) NOT NULL,
+  `Index_No` int(11) DEFAULT NULL,
+  `Name` varchar(255) DEFAULT NULL,
+  `Is_Active` enum('active','inactive') DEFAULT 'active',
+  `Created_At` datetime DEFAULT current_timestamp(),
+  `Updated_At` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `pages_category`
+--
+
+INSERT INTO `pages_category` (`Id`, `Index_No`, `Name`, `Is_Active`, `Created_At`, `Updated_At`) VALUES
+(4, 41, 'heloo', 'active', '2025-09-15 13:16:21', '2025-09-15 13:16:21'),
+(6, 4, 'lkj', 'active', '2025-09-15 13:20:36', '2025-09-15 14:25:03');
+
 -- --------------------------------------------------------
 
 --

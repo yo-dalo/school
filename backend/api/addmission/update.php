@@ -10,7 +10,7 @@ function update($conn) {
 
 
     $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-    if (!$id) sendResponse(400, false, "Invalid Admission ID");
+    if (!$id) sendResponse(400, false, "Invalid admission ID");
 
     $data = json_decode(file_get_contents("php://input"), true);
 
@@ -26,13 +26,13 @@ function update($conn) {
     $city           = safe($conn, $data['City'] ?? '');
     $state          = safe($conn, $data['State'] ?? '');
     $gender         = safe($conn, $data['Gender'] ?? '');
-    $admission_date = safe($conn, $data['Admission_Date'] ?? '');
+    $admission_date = safe($conn, $data['admission_Date'] ?? '');
     $more_info      = safe($conn, $data['More_Info'] ?? '');
     $is_active      = safe($conn, $data['Is_Active'] ?? 'active');
 
-    $sql = "UPDATE Admission SET 
+    $sql = "UPDATE admission SET 
                 Name = ?, Father_Name = ?, Mother_Name = ?, Email = ?, Phone = ?, Class = ?, DOB = ?, 
-                City = ?, State = ?, Gender = ?, Admission_Date = ?, More_Info = ?, Is_Active = ? 
+                City = ?, State = ?, Gender = ?, admission_Date = ?, More_Info = ?, Is_Active = ? 
             WHERE Id = ?";
 
     $stmt = mysqli_prepare($conn, $sql);
@@ -44,7 +44,7 @@ function update($conn) {
     );
 
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(201, true, 'Admission updated', ['id' => $id]);
+        sendResponse(201, true, 'admission updated', ['id' => $id]);
     } else {
         sendResponse(500, false, 'Failed to update admission');
     }

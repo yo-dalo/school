@@ -10,7 +10,7 @@ function update($conn) {
     validateRequestMethod('POST');
     
     $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-    if (!$id) sendResponse(400, false, "Invalid Blog ID");
+    if (!$id) sendResponse(400, false, "Invalid blog ID");
 
     $set_clauses = [];
     $params = [];
@@ -53,7 +53,7 @@ function update($conn) {
         sendResponse(400, false, 'No fields to update');
     }
 
-    $sql = "UPDATE Blog SET " . implode(', ', $set_clauses) . " WHERE Id = ?";
+    $sql = "UPDATE blog SET " . implode(', ', $set_clauses) . " WHERE Id = ?";
     $params[] = $id;
 
     // Determine types: all 's' except the last one 'i'
@@ -63,7 +63,7 @@ function update($conn) {
     mysqli_stmt_bind_param($stmt, $types, ...$params);
 
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(201, true, 'Blog updated', ['id' => $id]);
+        sendResponse(201, true, 'blog updated', ['id' => $id]);
     } else {
         sendResponse(500, false, 'Failed to update blog');
     }

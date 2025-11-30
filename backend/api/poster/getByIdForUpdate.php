@@ -7,16 +7,16 @@ $user = authenticate();
 
 function getByIdForUpdate($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
-    if (!$id) sendResponse(400, false, "Invalid Poster ID");
+    if (!$id) sendResponse(400, false, "Invalid poster ID");
 
-    $stmt = mysqli_prepare($conn, "SELECT * FROM Poster WHERE Id = ?");
+    $stmt = mysqli_prepare($conn, "SELECT * FROM poster WHERE Id = ?");
     mysqli_stmt_bind_param($stmt, 'i', $id);
     mysqli_stmt_execute($stmt);
     $result = mysqli_stmt_get_result($stmt);
     if ($row = mysqli_fetch_assoc($result)) {
-        sendResponse(200, true, 'Poster found', $row);
+        sendResponse(200, true, 'poster found', $row);
     } else {
-        sendResponse(404, false, 'Poster not found');
+        sendResponse(404, false, 'poster not found');
     }
 }
 

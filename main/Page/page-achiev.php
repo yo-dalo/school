@@ -79,7 +79,7 @@ require("./header.php");
     <div class="news-title"><?php echo htmlspecialchars($page['Title'] ?? 'No title'); ?></div>
     <div class="news-title"><?php echo htmlspecialchars($page['Created_At'] ?? 'No title'); ?></div>
 
-    <div class="news-image"><img src="http://100.99.139.175:8080/x/uploads/<?php echo htmlspecialchars($page['Image']); ?>" alt="" /></div>
+    <div class="news-image"><img src="http://100.99.139.175:8080/school/backend/uploads/<?php echo htmlspecialchars($page['Image']); ?>" alt="" /></div>
 
 
 

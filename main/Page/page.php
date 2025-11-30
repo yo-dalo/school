@@ -71,7 +71,7 @@ require("./header.php");
                $id=$_GET['id'];
                ?>
 
-    <?php $page = getSingle($con, "SELECT * FROM Pages WHERE Id = {$id}"); //print_r($news) ?>
+    <?php $page = getSingle($con, "SELECT * FROM pages WHERE Id = {$id}"); //print_r($news) ?>
     <div class="news-name"><?php echo htmlspecialchars($page['Name'] ?? 'No name'); ?> </div>
     <div class="news-body">
       <?php echo ($page['Page_Data'] ?? 'No post info'); ?>

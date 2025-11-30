@@ -19,7 +19,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT Name,  Date, Author, Image,Id FROM Blog $filters ORDER BY Created_At DESC $pagination";
+    $sql = "SELECT Name,  Date, Author, Image,Id FROM blog $filters ORDER BY Created_At DESC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -28,11 +28,11 @@ function getAll($conn) {
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM Blog " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM blog " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Blogs fetched', [
+    sendResponse(200, true, 'blogs fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

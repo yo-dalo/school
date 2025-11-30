@@ -9,7 +9,7 @@ function getByIdForUpdate($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 0;
     if (!$id) sendResponse(400, false, "Invalid Page ID");
 
-    $stmt = mysqli_prepare($conn, "SELECT * FROM Pages WHERE Id = ?");
+    $stmt = mysqli_prepare($conn, "SELECT * FROM pages WHERE Id = ?");
     mysqli_stmt_bind_param($stmt, 'i', $id);
     mysqli_stmt_execute($stmt);
     $result = mysqli_stmt_get_result($stmt);

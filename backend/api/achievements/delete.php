@@ -9,7 +9,7 @@ function delete_($conn, $id_) {
     $id = isset($id_) ? (int)$id_ : 1;
     if (!$id) sendResponse(400, false, "Invalid Achievement ID");
 
-    $sql = "DELETE FROM Achievements WHERE Id = ?";
+    $sql = "DELETE FROM achievements WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'i', $id);
 

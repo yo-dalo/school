@@ -22,19 +22,19 @@ function create($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }
 
-    $sql = "INSERT INTO Facility (Index_No, Name, Title, Description, Image, Is_Active) VALUES (?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO facility (Index_No, Name, Title, Description, Image, Is_Active) VALUES (?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'isssss',
         $index_no, $name, $title, $description, $image_path, $is_active
     );
     
     if (mysqli_stmt_execute($stmt)) {
-        sendResponse(200, true, 'Facility created', ['id' => mysqli_insert_id($conn)]);
+        sendResponse(200, true, 'facility created', ['id' => mysqli_insert_id($conn)]);
     } else {
         sendResponse(500, false, 'Failed to create facility');
     }

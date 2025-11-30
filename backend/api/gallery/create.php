@@ -13,19 +13,19 @@ When there’s no image, data comes as JSON. This example handles image uploads.
 
 function create($conn) {
     validateRequestMethod('POST');
-    $gallery_category_id = isset($_POST['Gallery_Category_Id']) ? intval($_POST['Gallery_Category_Id']) : null;
+    $gallery_category_id = isset($_POST['gallery_category_Id']) ? intval($_POST['gallery_category_Id']) : null;
     $description = safe($conn, $_POST['Description'] ?? '');
     $is_active = safe($conn, $_POST['Is_Active'] ?? 'active');
     
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }
 
-    $sql = "INSERT INTO Gallery (Gallery_Category_Id, Image, Description, Is_Active) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO Gallery (gallery_category_Id, Image, Description, Is_Active) VALUES (?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'isss',
         $gallery_category_id, $image_path, $description, $is_active

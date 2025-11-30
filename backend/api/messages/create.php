@@ -23,12 +23,12 @@ function create($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }
 
-    $sql = "INSERT INTO Messages (Image, Name, Roll, Description, Read_More_Url, Index_No, Is_Active) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO messages (Image, Name, Roll, Description, Read_More_Url, Index_No, Is_Active) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'sssssis',
         $image_path, $name, $roll, $description, $read_more_url, $index_no, $is_active

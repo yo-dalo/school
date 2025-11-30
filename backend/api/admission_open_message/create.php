@@ -17,12 +17,12 @@ function create($conn) {
     $image_path = null;
 
     if (!empty($_FILES['Image']['name'])) {
-        $upload = upload('Image', '../../Uploads/');
+        $upload = upload('Image', '../../uploads/');
         if (!$upload['success']) sendResponse(400, false, $upload['message']);
         $image_path = $upload['fileName'];
     }
 
-    $sql = "INSERT INTO Admission_Open_Message (Title, Index_No, Message, Image, Read_More_Url, Is_Active) VALUES (?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO admission_open_message (Title, Index_No, Message, Image, Read_More_Url, Is_Active) VALUES (?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'sisiss',
         $title, $index_no, $message, $image_path, $read_more_url, $is_active

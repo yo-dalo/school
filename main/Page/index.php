@@ -39,7 +39,11 @@
 <body>
 <div class="main">
 <div class="page_1">
-
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
 <?php
 require("../php/conn.php"); 
 require("../php/function.php");
@@ -49,12 +53,12 @@ require("./header.php");
 <div class="swiper poster mySwiper">
 <div class="swiper-wrapper">
 <?php
-$sql = "SELECT * FROM Poster   ORDER BY Index_No DESC";
+$sql = "SELECT * FROM poster  ORDER BY Index_No DESC";
 $result = mysqli_query($con, $sql);
 
 if (mysqli_num_rows($result) > 0) {
 while ($row = mysqli_fetch_assoc($result)) {
-echo "<div class='swiper-slide poster_sli'><a href='{$row['Url']}' ><img src='http://localhost/x/uploads/{$row['Image']}'></a></div>";
+echo "<div class='swiper-slide poster_sli'><a href='{$row['Url']}' ><img src='http://localhost/school/backend/uploads/{$row['Image']}'></a></div>";
 
 }
 }
@@ -202,7 +206,7 @@ Read More
   
   
   <?php
-$resultSql = "SELECT * FROM Result_10th  ORDER BY Index_No DESC";
+$resultSql = "SELECT * FROM result_10th  ORDER BY Index_No DESC";
 $resultR = mysqli_query($con, $resultSql);
 
 if (mysqli_num_rows($resultR) > 0) {
@@ -211,7 +215,7 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
    echo "<div class='student_card'> 
   
   <div class='student_img'>
-    <img src='http://localhost/x/uploads/{$rrow['Image']}'>
+    <img src='http://localhost/school/backend/uploads/{$rrow['Image']}'>
   </div>
   
   <div class='student_info'>
@@ -287,7 +291,7 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
   
   
   <?php
-$resultSql = "SELECT * FROM Result_12th  ORDER BY Index_No DESC";
+$resultSql = "SELECT * FROM result_12th  ORDER BY Index_No DESC";
 $resultR = mysqli_query($con, $resultSql);
 
 if (mysqli_num_rows($resultR) > 0) {
@@ -296,7 +300,7 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
    echo "<div class='student_card'> 
   
   <div class='student_img'>
-    <img src='http://localhost/x/uploads/{$rrow['Image']}'>
+    <img src='http://localhost/school/backend/uploads/{$rrow['Image']}'>
   </div>
   
   <div class='student_info'>
@@ -374,12 +378,12 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
 <li>Educating Students for Sussess in A Changing Word ....</li>
 
 <div class="facility-swipe">
-<?php $facilities = getAll($con, "SELECT * FROM Facility  ORDER BY Index_No DESC"); //print_r($facilities) ?>
+<?php $facilities = getAll($con, "SELECT * FROM facility  ORDER BY Index_No DESC"); //print_r($facilities) ?>
 
 <?php foreach ($facilities as $facility): ?>
 <div class="facility-card">
 <div class="facility-Img">
-<img src="http://localhost/x/uploads/<?php echo htmlspecialchars($facility['Image']); ?>" alt="" />
+<img src="http://localhost/school/backend/uploads/<?php echo htmlspecialchars($facility['Image']); ?>" alt="" />
 </div>
 
 <div class="facility-Info">
@@ -411,7 +415,7 @@ while ($rrow = mysqli_fetch_assoc($resultR)) {
 <div class="page_2">
 <div class="box_Y">
 <div class="box_y_info">
-  <?php $aom = getSingle($con, "SELECT * FROM Admission_Open_Message "); //print_r($facilities) ?>
+  <?php $aom = getSingle($con, "SELECT * FROM admission_open_message "); //print_r($facilities) ?>
 <h1>Admission Open</h1>
 <p style="color:blue">
   <?php //echo ($aom['Message']) ;?>
@@ -454,7 +458,7 @@ Admissions are now open for the new academic session! We welcome young learners 
 <div class="scoller_2">
 
 <ul >
-<?php $newses = getAll($con, "SELECT * FROM Notification "); //print_r($newses[1]["Title"]) ?>
+<?php $newses = getAll($con, "SELECT * FROM notification "); //print_r($newses[1]["Title"]) ?>
 
 <?php foreach ($newses as $news):  ?>
 
@@ -497,7 +501,7 @@ Admissions are now open for the new academic session! We welcome young learners 
 <div class="swiper mySwiperX2">
 <div class="swiper-wrapper mySwiperX2_ ">
 <?php
-$sql = "SELECT * FROM Messages ";
+$sql = "SELECT * FROM messages ";
 $result = mysqli_query($con, $sql);
 
 if (mysqli_num_rows($result) > 0) {
@@ -506,7 +510,7 @@ echo "
                                                   <div class='swiper-slide  mySwiperX2_slide'>
                                                     <div class='info_box_xyz'>
                                                       <div class='info_box_xyz_img'>
-                                                        <img src='http://localhost/x/uploads/{$row_2['Image']}' alt=''>
+                                                        <img src='http://localhost/school/backend/uploads/{$row_2['Image']}' alt=''>
                                                       </div>
                                                       <h2>{$row_2['Name']}</h2>
                                                       <li>{$row_2['Roll']}</li>
@@ -562,13 +566,13 @@ CEO Window
 
 <div class=" mySwiperX3  ">
 <div class="facility-swipe  ">
-  <?php $achievs = getAll($con, "SELECT * FROM Achievements "); //print_r($facilities) ?>
+  <?php $achievs = getAll($con, "SELECT * FROM achievements "); //print_r($facilities) ?>
 
 <?php foreach ($achievs as $achiev): ?>
   
 <div class=" swiper-slide facility-card  ">
 <div class="facility-Img">
-<img src="http://localhost/x/uploads/<?php echo htmlspecialchars($achiev['Image'] ?? 'No name'); ?>" alt="" />
+<img src="http://localhost/school/backend/uploads/<?php echo htmlspecialchars($achiev['Image'] ?? 'No name'); ?>" alt="" />
 </div>
 
 <div class="facility-Info">

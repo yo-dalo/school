@@ -13,7 +13,7 @@
     <div class="footer-column">
       <h4>Quick Links</h4>
       <ul>
-        <?php $qLinks = getAll($con, "SELECT * FROM Quick_Link "); //print_r($facilities) ?>
+        <?php $qLinks = getAll($con, "SELECT * FROM quick_link "); //print_r($facilities) ?>
        <?php foreach ($qLinks as $qLink): ?>
         <li><a href="<?php echo htmlspecialchars($qLink['Url'] ?? 'No name'); ?>"><?php echo htmlspecialchars($qLink['Name'] ?? 'No name'); ?></a></li>
         <?php endforeach; ?>
@@ -24,7 +24,7 @@
     <div class="footer-column">
       <h4>Useful Links</h4>
       <ul>
-        <?php $uLinks = getAll($con, "SELECT * FROM Useful_Link "); //print_r($facilities) ?>
+        <?php $uLinks = getAll($con, "SELECT * FROM useful_link "); //print_r($facilities) ?>
            <?php foreach ($uLinks as $uLink): ?>
         <li><a href="<?php echo htmlspecialchars($uLink['Url'] ?? 'No name'); ?>"><?php echo htmlspecialchars($uLink['Name'] ?? 'No name'); ?></a></li>
         <?php endforeach; ?>

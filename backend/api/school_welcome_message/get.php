@@ -19,7 +19,7 @@ function buildFilters($conn) {
 function getAll($conn) {
     $filters = buildFilters($conn);
     $pagination = buildPagination();
-    $sql = "SELECT Id, Read_More_Url, Is_Active FROM School_Welcome_Message $filters ORDER BY Created_At DESC $pagination";
+    $sql = "SELECT Id, Read_More_Url, Is_Active FROM school_welcome_message $filters ORDER BY Created_At DESC $pagination";
     $result = mysqli_query($conn, $sql);
 
     $rows = [];
@@ -28,11 +28,11 @@ function getAll($conn) {
     }
 
     // Total count for pagination
-    $count_sql = "SELECT COUNT(*) as total FROM School_Welcome_Message " . ($filters ? substr($filters, 6) : '');
+    $count_sql = "SELECT COUNT(*) as total FROM school_welcome_message " . ($filters ? substr($filters, 6) : '');
     $count_result = mysqli_query($conn, $count_sql);
     $total = mysqli_fetch_assoc($count_result)['total'] ?? 0;
 
-    sendResponse(200, true, 'Welcome Messages fetched', [
+    sendResponse(200, true, 'Welcome messages fetched', [
         'data' => $rows,
         'pagination' => [
             'total' => $total,

@@ -17,7 +17,7 @@ function update($conn) {
     $date = safe($conn, $_POST['Date'] ?? '');
     $is_active = safe($conn, $_POST['Is_Active'] ?? 'active');
 
-    $sql = "UPDATE Gallery_Category SET Name = ?, Title = ?, Index_No = ?, Date = ?, Is_Active = ? WHERE Id = ?";
+    $sql = "UPDATE gallery_category SET Name = ?, Title = ?, Index_No = ?, Date = ?, Is_Active = ? WHERE Id = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'ssissi',
         $name, $title, $index_no, $date, $is_active, $id

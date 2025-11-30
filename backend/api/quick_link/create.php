@@ -14,7 +14,7 @@ function create($conn) {
     $name = safe($conn, $data['Name'] ?? '');
     $is_active = safe($conn, $data['Is_Active'] ?? 'active');
 
-    $sql = "INSERT INTO Quick_Link (Index_No, Url, Name, Is_Active) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO quick_link (Index_No, Url, Name, Is_Active) VALUES (?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'isss',
         $index_no, $url, $name, $is_active

@@ -12,7 +12,7 @@ function create($conn) {
     $read_more_url = safe($conn, $_POST['Read_More_Url'] ?? '');
     $is_active = safe($conn, $_POST['Is_Active'] ?? 'active');
 
-    $sql = "INSERT INTO School_Welcome_Message (Title, Message, Read_More_Url, Is_Active) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO school_welcome_message (Title, Message, Read_More_Url, Is_Active) VALUES (?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, 'ssss',
         $title, $message, $read_more_url, $is_active
